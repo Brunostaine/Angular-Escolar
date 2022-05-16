@@ -1,16 +1,84 @@
 {
-  "alunos": [
+  "type-users": [
     {
       "id": 1,
-      "nome": "Teste"
+      "type": "admin"
     },
     {
       "id": 2,
-      "nome": "Teste2"
+      "type": "diretor"
     },
     {
-      "nome": "TesteHttp",
+      "id": 3,
+      "type": "coordenador"
+    },
+    {
+      "id": 4,
+      "type": "professor"
+    }
+  ],
+
+  "user": [
+    {
+      "id": 1,
+      "name": "Bruno",
+      "type-user": "admin" 
+    },
+    {
+      "id": 2,
+      "name": "Ana",
+      "type-user": "diretor" 
+    },
+    {
+      "id": 3,
+      "name": "João",
+      "type-user": "coordenador" 
+    },
+    {
+      "id": 4,
+      "name": "Maria",
+      "type-user": "professor" 
+    }
+  ],
+
+  "alunos": [
+    {
+      "id": 1,
+      "name": "Teste"
+    },
+    {
+      "id": 2,
+      "name": "Teste2"
+    },
+    {
+      "name": "TesteHttp",
       "id": 3
+    }
+  ],
+
+  "questionario": [
+    {
+      "id": 1,
+      "name": "1º semestres"
+    },
+    {
+      "id": 2,
+      "name": "2º semestres"
+    }
+  ],
+
+  "perguntas": [
+    {
+      "id": 1,
+      "pergunta": "Aluno consegue ler?"
+    },
+    {
+      "id": 2,
+      "pergunta": "Aluno consegue ler inglês?"
+    },
+    {
+      "id": 3,
+      "pergunta": "Aluno consegue ler espanhol?"
     }
   ]
 }
