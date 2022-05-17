@@ -98,5 +98,21 @@
       "id": 3,
       "pergunta": "Aluno consegue ler espanhol?"
     }
+  ],
+
+  "Turmas": [
+    {
+      "id": 1,
+      "turma": "1A"
+    },
+    {
+      "id": 2,
+      "turma": "2A"
+    },
+    {
+      "id": 3,
+      "turma": "3A"
+    }
   ]
-}
+  }
+

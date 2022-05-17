@@ -13,6 +13,10 @@ export class RavRelatoriosComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  navegateAlunos(){
+    this.router.navigate(['rav/alunos'])
+  }
+
   navegateCreateAluno(){
     this.router.navigate(['rav/aluno/create'])
   }
