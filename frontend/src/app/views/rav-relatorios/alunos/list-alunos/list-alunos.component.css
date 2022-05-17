@@ -8,3 +8,15 @@ table {
     line-height: 1.2;
     text-align: center;
 }
+
+.edit {
+  margin-right: 15px;
+}
+
+.edit > i {
+  color: #d9cd26;
+}
+
+.delete > i {
+  color: #e35e6b;
+}

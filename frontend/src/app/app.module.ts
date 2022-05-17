@@ -25,6 +25,7 @@ import {MatListModule} from '@angular/material/list';
 import { MatCartRavRelatoriosComponent } from './components/templates/cards/mat-cart-rav-relatorios/mat-cart-rav-relatorios.component';
 import { CardTitlePagesComponent } from './components/templates/cards/card-title-pages/card-title-pages.component';
 import {MatButtonModule} from '@angular/material/button';
+import { UpdateAlunosComponent } from './views/rav-relatorios/alunos/update-alunos/update-alunos.component';
 
 
 
@@ -40,6 +41,7 @@ import {MatButtonModule} from '@angular/material/button';
     ListAlunosComponent,
     MatCartRavRelatoriosComponent,
     CardTitlePagesComponent,
+    UpdateAlunosComponent,
     
   ],
   imports: [

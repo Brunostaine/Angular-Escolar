@@ -1,0 +1,17 @@
+<app-mat-cart-rav-relatorios></app-mat-cart-rav-relatorios>
+
+<mat-card class="">
+    <mat-card-title class="title">Alterar dados do Aluno</mat-card-title>
+
+    <form>
+        <mat-form-field>
+            <input matInput placeholder="Nome" name="name" [(ngModel)]="alunos.name">
+        </mat-form-field>
+        <mat-form-field>
+            <input matInput placeholder="Turma" name="turma" maxlength="2" [(ngModel)]="alunos.turma">
+        </mat-form-field>
+    </form>
+
+    <button class="btn btn-primary" (click)="updateAluno()">Salvar</button>
+    <button class="btn" (click)="cancel()">Cancelar</button>
+</mat-card>

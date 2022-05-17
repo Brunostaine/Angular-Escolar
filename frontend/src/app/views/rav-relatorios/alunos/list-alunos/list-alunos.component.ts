@@ -11,7 +11,7 @@ export class ListAlunosComponent implements OnInit {
 
   alunos!: Aluno[];
 
-  displayedColumns = ['id', 'name', 'turma']
+  displayedColumns = ['id', 'name', 'turma', 'actions']
 
   constructor(private alunosService: AlunosService) { }
 
