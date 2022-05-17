@@ -25,6 +25,10 @@ export class ListAlunosComponent implements OnInit {
     })
   }
 
+  navegateCreateAluno(){
+    this.router.navigate(['rav/aluno/create'])
+  }
+
   delete(id: any) {
     this.alunosService.delete(id).subscribe(() => {
       this.alunosService.message('Aluno excluido com sucesso!')

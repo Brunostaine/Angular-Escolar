@@ -61,19 +61,14 @@
   ],
   "alunos": [
     {
-      "id": 1,
-      "name": "Teste",
-      "turma": "1As"
+      "name": "Breno",
+      "turma": "1A",
+      "id": 1
     },
     {
-      "id": 2,
-      "name": "Teste2",
-      "turma": "1B"
-    },
-    {
-      "name": "TesteHttp",
-      "id": 3,
-      "turma": "1C"
+      "name": "Joazinho",
+      "turma": "1B",
+      "id": 2
     }
   ],
   "questionario": [
