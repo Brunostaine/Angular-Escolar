@@ -4,9 +4,19 @@
       "item": "Home"
     },
     {
-      "item": "Turma"
+      "item": "Calendário Escolar"
+    },
+    {
+      "item": "Regimento Escolar"
+    },
+    {
+      "item": "Rav - Relatórios"
+    },
+    {
+      "item": "Logout"
     }
   ],
+  
   "type-users": [
     {
       "id": 1,
