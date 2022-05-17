@@ -20,3 +20,7 @@ table {
 .delete > i {
   color: #e35e6b;
 }
+
+.bottom {
+  background-color: var(--cyan);
+}

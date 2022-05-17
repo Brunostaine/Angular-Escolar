@@ -26,6 +26,8 @@ import { MatCartRavRelatoriosComponent } from './components/templates/cards/mat-
 import { CardTitlePagesComponent } from './components/templates/cards/card-title-pages/card-title-pages.component';
 import {MatButtonModule} from '@angular/material/button';
 import { UpdateAlunosComponent } from './views/rav-relatorios/alunos/update-alunos/update-alunos.component';
+import { DiarioComponent } from './views/diario/diario/diario.component';
+import { CardDiarioTitleComponent } from './components/templates/cards/card-diario-title/card-diario-title.component';
 
 
 
@@ -42,6 +44,8 @@ import { UpdateAlunosComponent } from './views/rav-relatorios/alunos/update-alun
     MatCartRavRelatoriosComponent,
     CardTitlePagesComponent,
     UpdateAlunosComponent,
+    DiarioComponent,
+    CardDiarioTitleComponent,
     
   ],
   imports: [

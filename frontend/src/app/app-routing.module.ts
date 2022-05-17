@@ -1,3 +1,4 @@
+import { DiarioComponent } from './views/diario/diario/diario.component';
 import { UpdateAlunosComponent } from './views/rav-relatorios/alunos/update-alunos/update-alunos.component';
 import { ListAlunosComponent } from './views/rav-relatorios/alunos/list-alunos/list-alunos.component';
 import { CreateAlunosComponent } from './views/rav-relatorios/alunos/create-alunos/create-alunos.component';
@@ -13,6 +14,8 @@ const routes: Routes = [
   { path: 'rav/alunos', component: ListAlunosComponent },
   { path: 'rav/aluno/create', component: CreateAlunosComponent },
   { path: 'rav/aluno/update/:id', component: UpdateAlunosComponent },
+
+  { path: 'diario', component: DiarioComponent },
 ];
 
 @NgModule({
