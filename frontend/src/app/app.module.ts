@@ -28,6 +28,10 @@ import {MatButtonModule} from '@angular/material/button';
 import { UpdateAlunosComponent } from './views/rav-relatorios/alunos/update-alunos/update-alunos.component';
 import { DiarioComponent } from './views/diario/diario/diario.component';
 import { CardDiarioTitleComponent } from './components/templates/cards/card-diario-title/card-diario-title.component';
+import {MatMenuModule} from '@angular/material/menu';
+import { CalendarioEscolarComponent } from './views/calendario-escolar/calendario-escolar/calendario-escolar.component';
+import { RegimentoEscolarComponent } from './views/regimento-escolar/regimento-escolar/regimento-escolar.component';
+
 
 
 
@@ -46,6 +50,8 @@ import { CardDiarioTitleComponent } from './components/templates/cards/card-diar
     UpdateAlunosComponent,
     DiarioComponent,
     CardDiarioTitleComponent,
+    CalendarioEscolarComponent,
+    RegimentoEscolarComponent,
     
   ],
   imports: [
@@ -63,7 +69,8 @@ import { CardDiarioTitleComponent } from './components/templates/cards/card-diar
     MatToolbarModule,
     MatSidenavModule,
     MatListModule,
-    MatButtonModule
+    MatButtonModule,
+    MatMenuModule
 
   ],
   providers: [],
