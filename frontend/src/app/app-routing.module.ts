@@ -6,7 +6,8 @@ import { RavRelatoriosComponent } from './views/rav-relatorios/rav-relatorios.co
 
 const routes: Routes = [
   { path: '', component: HomeComponent },
-  { path: 'rav', component: RavRelatoriosComponent }
+  { path: 'rav', component: RavRelatoriosComponent },
+  
 ];
 
 @NgModule({

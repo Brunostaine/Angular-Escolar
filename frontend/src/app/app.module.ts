@@ -8,6 +8,7 @@ import { FooterComponent } from './components/templates/footer/footer.component'
 import { NavComponent } from './components/templates/nav/nav.component';
 import { HomeComponent } from './views/home/home.component';
 import { RavRelatoriosComponent } from './views/rav-relatorios/rav-relatorios.component';
+import { CreateAlunosComponent } from './components/alunos/create-alunos/create-alunos.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { RavRelatoriosComponent } from './views/rav-relatorios/rav-relatorios.co
     FooterComponent,
     NavComponent,
     HomeComponent,
-    RavRelatoriosComponent
+    RavRelatoriosComponent,
+    CreateAlunosComponent
   ],
   imports: [
     BrowserModule,

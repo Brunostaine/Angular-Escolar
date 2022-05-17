@@ -1,3 +1,3 @@
 export interface Sidebar {
-    menu: string
+    sidebar: string
 }
