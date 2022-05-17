@@ -3,29 +3,30 @@
                     mode="side" 
                     fixedInViewport="true" 
                     opened fixedTopGap="64" 
-                    fixedBottomGap="64">
+                    
+                    >
                 <mat-nav-list class="nav-list">
-                      <a mat-list-item>
+                      <a routerLink="" mat-list-item route>
                         <i class="material-icons">home</i>
                         Home
                       </a>
-                      <a mat-list-item>
+                      <a routerLink="" mat-list-item>
                         <i class="material-icons">home</i>
                         Turma
                       </a>
-                      <a mat-list-item>
+                      <a routerLink="" mat-list-item>
                         <i class="material-icons">home</i>
                         Calendário Escolar
                       </a>
-                      <a mat-list-item>
+                      <a routerLink="" mat-list-item>
                         <i class="material-icons">home</i>
                         Regimento Escolar
                       </a>
-                      <a mat-list-item>
+                      <a routerLink="/rav" mat-list-item>
                         <i class="material-icons">home</i>
                         Rav - Relatórios
                       </a>
-                      <a mat-list-item>
+                      <a routerLink="" mat-list-item>
                         <i class="material-icons">home</i>
                         Logout
                       </a>
@@ -33,7 +34,7 @@
       </mat-sidenav>
 
       <mat-sidenav-content>
-        <app-home></app-home>
+        
 
           <router-outlet></router-outlet>
           

@@ -2,3 +2,10 @@ form {
     display: flex;
     flex-direction: column;
 }
+
+.title {
+    font-size: 1.2rem;
+    font-weight: 500;
+    line-height: 1.2;
+    text-align: center;
+}

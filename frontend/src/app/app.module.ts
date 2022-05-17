@@ -22,6 +22,9 @@ import {MatTableModule} from '@angular/material/table';
 import {MatToolbarModule} from '@angular/material/toolbar';
 import {MatSidenavModule} from '@angular/material/sidenav';
 import {MatListModule} from '@angular/material/list';
+import { MatCartRavRelatoriosComponent } from './components/templates/cards/mat-cart-rav-relatorios/mat-cart-rav-relatorios.component';
+import { CardTitlePagesComponent } from './components/templates/cards/card-title-pages/card-title-pages.component';
+import {MatButtonModule} from '@angular/material/button';
 
 
 
@@ -35,6 +38,8 @@ import {MatListModule} from '@angular/material/list';
     RavRelatoriosComponent,
     CreateAlunosComponent,
     ListAlunosComponent,
+    MatCartRavRelatoriosComponent,
+    CardTitlePagesComponent,
     
   ],
   imports: [
@@ -51,7 +56,8 @@ import {MatListModule} from '@angular/material/list';
     MatTableModule,
     MatToolbarModule,
     MatSidenavModule,
-    MatListModule
+    MatListModule,
+    MatButtonModule
 
   ],
   providers: [],
