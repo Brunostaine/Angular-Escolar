@@ -1,4 +1,17 @@
-<p>create-alunos works!</p>
+<mat-card class="">
+    <mat-card-title>Novo Aluno</mat-card-title>
 
-<button class="btn btn-primary" (click)="createAluno()">Salvar</button>
-<button class="btn " (click)="cancel()">Cancelar</button>
+    <form>
+        <mat-form-field>
+            <input matInput placeholder="Nome" [(ngModel)]="aluno.name" name="name">
+        </mat-form-field>
+        <mat-form-field>
+            <input matInput placeholder="Turma" [(ngModel)]="aluno.turma" name="turma">
+        </mat-form-field>
+    </form>
+
+    <button class="btn btn-primary" (click)="createAluno()">Salvar</button>
+    <button class="btn" (click)="cancel()">Cancelar</button>
+</mat-card>
+
+
