@@ -1,4 +1,4 @@
-import { CreateAlunosComponent } from './components/alunos/create-alunos/create-alunos.component';
+import { CreateAlunosComponent } from './views/rav-relatorios/alunos/create-alunos/create-alunos.component';
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 
