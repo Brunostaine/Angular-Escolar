@@ -1,7 +1,8 @@
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
-import { MatSnackBar } from '@angular/material/snack-bar'
+import { MatSnackBar } from '@angular/material/snack-bar';
 import { Observable } from 'rxjs';
+
 import { Aluno } from './alunos-model';
 
 @Injectable({
@@ -37,12 +38,12 @@ export class AlunosService {
     const url = `${this.baseURL}/${id}`
     return this.http.get<Aluno>(url)
   }
-  
+      // atualiza os dados do aluno
   update(aluno: Aluno): Observable<Aluno> {
     const url = `${this.baseURL}/${aluno.id}`
     return this.http.put<Aluno>(url, aluno)
   }
-
+      // deleta um aluno
   delete(id: any): Observable<Aluno> {
     const url = `${this.baseURL}/${id}`
     return this.http.delete<Aluno>(url)

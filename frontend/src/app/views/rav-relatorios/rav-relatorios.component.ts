@@ -17,8 +17,8 @@ export class RavRelatoriosComponent implements OnInit {
     this.router.navigate(['rav/alunos'])
   }
 
-  navegateCreateAluno(){
-    this.router.navigate(['rav/aluno/create'])
+  navegateRelatorios(){
+    this.router.navigate(['rav/relatorio'])
   }
 
 }

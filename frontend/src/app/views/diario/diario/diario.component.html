@@ -6,18 +6,15 @@
             Turma
     </button>
     <mat-menu #belowMenu="matMenu" yPosition="below">
-        <button mat-menu-item>Turma 1A</button>
-        <button mat-menu-item>Turma 1B</button>
+        <button mat-menu-item routerLink="/turma-1A">Turma 1A</button>
+        <button mat-menu-item routerLink="/turma-1B">Turma 1B</button>
     </mat-menu>
 
-    <button class="bottom" mat-flat-button color="accent" 
+    <button class="bottom"  mat-flat-button color="accent" 
             mat-button [matMenuTriggerFor]="belowMenu">
             Anotações
     </button>
-    <mat-menu #belowMenu="matMenu" yPosition="below">
-        <button mat-menu-item>Turma 1A</button>
-        <button mat-menu-item>Turma 1B</button>
-    </mat-menu>
+    
 </div>
 
 
