@@ -1,3 +1,4 @@
+import { Router } from '@angular/router';
 import { Aluno } from './../alunos-model';
 import { AlunosService } from './../alunos.service';
 import { Component, OnInit } from '@angular/core';
@@ -13,7 +14,7 @@ export class ListAlunosComponent implements OnInit {
 
   displayedColumns = ['id', 'name', 'turma', 'actions']
 
-  constructor(private alunosService: AlunosService) { }
+  constructor(private alunosService: AlunosService, private router: Router) { }
 
   
 
@@ -24,4 +25,10 @@ export class ListAlunosComponent implements OnInit {
     })
   }
 
+  delete(id: any) {
+    this.alunosService.delete(id).subscribe(() => {
+      this.alunosService.message('Aluno excluido com sucesso!')
+      location.reload()
+    })
+  }
 }

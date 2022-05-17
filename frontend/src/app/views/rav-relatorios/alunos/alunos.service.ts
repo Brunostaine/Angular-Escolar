@@ -42,4 +42,9 @@ export class AlunosService {
     const url = `${this.baseURL}/${aluno.id}`
     return this.http.put<Aluno>(url, aluno)
   }
+
+  delete(id: any): Observable<Aluno> {
+    const url = `${this.baseURL}/${id}`
+    return this.http.delete<Aluno>(url)
+  }
 }
