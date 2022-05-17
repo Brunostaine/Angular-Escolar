@@ -1,4 +1,12 @@
-{
+{ 
+  "menu": [
+    {
+      "item": "Home"
+    },
+    {
+      "item": "Turma"
+    }
+  ],
   "type-users": [
     {
       "id": 1,
