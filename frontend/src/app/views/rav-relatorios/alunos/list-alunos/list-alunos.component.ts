@@ -1,3 +1,5 @@
+import { Aluno } from './../alunos-model';
+import { AlunosService } from './../alunos.service';
 import { Component, OnInit } from '@angular/core';
 
 @Component({
@@ -7,9 +9,19 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ListAlunosComponent implements OnInit {
 
-  constructor() { }
+  alunos!: Aluno[];
+
+  displayedColumns = ['id', 'name', 'turma']
+
+  constructor(private alunosService: AlunosService) { }
+
+  
 
   ngOnInit(): void {
+    this.alunosService.listAlunos().subscribe(alunos => {
+      this.alunos = alunos;
+      // console.log(alunos)
+    })
   }
 
 }

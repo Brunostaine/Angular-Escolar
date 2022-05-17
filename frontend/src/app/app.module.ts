@@ -17,6 +17,7 @@ import { CreateAlunosComponent } from './views/rav-relatorios/alunos/create-alun
 import { ListAlunosComponent } from './views/rav-relatorios/alunos/list-alunos/list-alunos.component';
 import { RavRelatoriosComponent } from './views/rav-relatorios/rav-relatorios.component';
 import {MatCardModule} from '@angular/material/card';
+import {MatTableModule} from '@angular/material/table';
 
 
 
@@ -42,7 +43,8 @@ import {MatCardModule} from '@angular/material/card';
     MatSnackBarModule,
     MatFormFieldModule,
     MatInputModule,
-    MatCardModule
+    MatCardModule,
+    MatTableModule
 
     
     

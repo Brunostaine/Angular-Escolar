@@ -27,4 +27,8 @@ export class AlunosService {
   create(aluno: Aluno): Observable<Aluno> {
     return this.http.post<Aluno>(this.baseURL, aluno)
   }
+
+  listAlunos(): Observable<Aluno[]>{
+    return this.http.get<Aluno[]>(this.baseURL)
+  }
 }
