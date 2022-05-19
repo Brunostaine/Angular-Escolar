@@ -9,11 +9,11 @@ import { BotaoAdicionarComponent } from './components/botoes/botao-adicionar/bot
 import { BotaoCancelarComponent } from './components/botoes/botao-cancelar/botao-cancelar.component';
 import { IconeDeleteComponent } from './components/icones/icone-delete/icone-delete.component';
 import { IconeEditComponent } from './components/icones/icone-edit/icone-edit.component';
-import { CardDiarioTitleComponent } from './components/templates/cards/card-diario-title/card-diario-title.component';
-import { CardTitlePagesComponent } from './components/templates/cards/card-title-pages/card-title-pages.component';
+import { CardDiarioTitleComponent } from './components/cards/card-diario-title/card-diario-title.component';
+import { CardTitlePagesComponent } from './components/cards/card-title-pages/card-title-pages.component';
 import {
   MatCartRavRelatoriosComponent,
-} from './components/templates/cards/mat-cart-rav-relatorios/mat-cart-rav-relatorios.component';
+} from './components/cards/mat-cart-rav-relatorios/mat-cart-rav-relatorios.component';
 import { FooterComponent } from './components/templates/footer/footer.component';
 import { HeaderComponent } from './components/templates/header/header.component';
 import { NavComponent } from './components/templates/nav/nav.component';
