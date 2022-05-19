@@ -1,3 +1,4 @@
 .icone {
     color: var(--icone-edit);
+    cursor: pointer;
 }
