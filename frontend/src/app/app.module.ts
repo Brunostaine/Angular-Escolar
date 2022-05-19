@@ -37,6 +37,8 @@ import { ListRelatoriosComponent } from './views/rav-relatorios/relatorios/list-
 import { RegimentoEscolarComponent } from './views/regimento-escolar/regimento-escolar/regimento-escolar.component';
 import { CreateRelatoriosComponent } from './views/rav-relatorios/relatorios/create-relatorios/create-relatorios.component';
 import { BotaoAdicionarComponent } from './components/botoes/botao-adicionar/botao-adicionar.component';
+import { IconeEditComponent } from './components/icones/icone-edit/icone-edit.component';
+import { IconeDeleteComponent } from './components/icones/icone-delete/icone-delete.component';
 
 
 
@@ -64,6 +66,8 @@ import { BotaoAdicionarComponent } from './components/botoes/botao-adicionar/bot
     ListRelatoriosComponent,
           CreateRelatoriosComponent,
           BotaoAdicionarComponent,
+          IconeEditComponent,
+          IconeDeleteComponent,
     
   ],
   imports: [

@@ -19,7 +19,6 @@
       "item": "Logout"
     }
   ],
-
   "type-users": [
     {
       "id": 1,
@@ -38,7 +37,6 @@
       "type": "professor"
     }
   ],
-
   "user": [
     {
       "id": 1,
@@ -61,25 +59,23 @@
       "type-user": "professor"
     }
   ],
-
   "alunos": [
     {
-      "name": "Breno",
+      "name": "teste",
       "turma": "1A",
       "id": 1
     },
     {
-      "name": "Joazinho",
+      "name": "teste",
       "turma": "1B",
       "id": 2
     },
     {
-      "name": "Fulano",
-      "turma": "3C",
+      "name": "teste",
+      "turma": "1C",
       "id": 3
     }
   ],
-
   "questionario": [
     {
       "id": 1,
@@ -90,7 +86,6 @@
       "name": "2º semestres"
     }
   ],
-
   "perguntas": [
     {
       "id": 1,
@@ -105,7 +100,6 @@
       "pergunta": "Aluno consegue ler espanhol?"
     }
   ],
-
   "Turmas": [
     {
       "id": 1,
@@ -120,5 +114,4 @@
       "turma": "3A"
     }
   ]
-  
 }
