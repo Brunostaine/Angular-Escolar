@@ -3,15 +3,14 @@
                     mode="side" 
                     fixedInViewport="true" 
                     opened fixedTopGap="64" 
-                    
-                    >
+      >
                     
                 <mat-nav-list class="nav-list">
                       <a routerLink="" mat-list-item route>
                         <i class="material-icons">home</i>
                         Home
                       </a>
-                      <a mat-list-item>
+                      <a routerLink="secretaria" mat-list-item>
                         <i class="material-icons">business_center</i>
                         Secretaria
                       </a>
@@ -44,8 +43,8 @@
 
       <mat-sidenav-content>
         
-
           <router-outlet></router-outlet>
           
       </mat-sidenav-content>
+      
 </mat-sidenav-container>

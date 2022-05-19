@@ -1,4 +1,3 @@
-import { CreateRelatoriosComponent } from './views/rav-relatorios/relatorios/create-relatorios/create-relatorios.component';
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 
@@ -11,6 +10,7 @@ import { CreateAlunosComponent } from './views/rav-relatorios/alunos/create-alun
 import { ListAlunosComponent } from './views/rav-relatorios/alunos/list-alunos/list-alunos.component';
 import { UpdateAlunosComponent } from './views/rav-relatorios/alunos/update-alunos/update-alunos.component';
 import { RavRelatoriosComponent } from './views/rav-relatorios/rav-relatorios.component';
+import { CreateRelatoriosComponent } from './views/rav-relatorios/relatorios/create-relatorios/create-relatorios.component';
 import { ListRelatoriosComponent } from './views/rav-relatorios/relatorios/list-relatorios/list-relatorios.component';
 import { RegimentoEscolarComponent } from './views/regimento-escolar/regimento-escolar/regimento-escolar.component';
 
@@ -29,6 +29,9 @@ const routes: Routes = [
   { path: 'turma-1B', component: Turma1BComponent },
   { path: 'calendario-escolar', component: CalendarioEscolarComponent },
   { path: 'regimento-escolar', component: RegimentoEscolarComponent },
+
+  
+  
 ];
 
 @NgModule({
