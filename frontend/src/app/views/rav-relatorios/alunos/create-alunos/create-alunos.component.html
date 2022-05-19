@@ -12,8 +12,10 @@
         </mat-form-field>
     </form>
 
-    <button class="buttom btn btn-primary" (click)="createAluno()">Salvar</button>
-    <app-botao-cancelar (click)="cancel()"></app-botao-cancelar>
+
+    <botao-adicionar (click)="createAluno()"></botao-adicionar>
+
+    <botao-cancelar (click)="cancel()"></botao-cancelar>
     
 </mat-card>
 

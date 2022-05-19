@@ -1,6 +1,7 @@
 button {
     background-color: var(--background-botao-cancelar);
     color: #fff;
+    margin-right: 10px;
 }
 
 button:hover {

@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-botao-adicionar',
+  selector: 'botao-adicionar',
   templateUrl: './botao-adicionar.component.html',
   styleUrls: ['./botao-adicionar.component.css']
 })
