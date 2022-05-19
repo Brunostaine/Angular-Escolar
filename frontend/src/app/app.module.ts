@@ -39,6 +39,7 @@ import { CreateRelatoriosComponent } from './views/rav-relatorios/relatorios/cre
 import { BotaoAdicionarComponent } from './components/botoes/botao-adicionar/botao-adicionar.component';
 import { IconeEditComponent } from './components/icones/icone-edit/icone-edit.component';
 import { IconeDeleteComponent } from './components/icones/icone-delete/icone-delete.component';
+import { BotaoCancelarComponent } from './components/botoes/botao-cancelar/botao-cancelar.component';
 
 
 
@@ -68,6 +69,7 @@ import { IconeDeleteComponent } from './components/icones/icone-delete/icone-del
           BotaoAdicionarComponent,
           IconeEditComponent,
           IconeDeleteComponent,
+          BotaoCancelarComponent,
     
   ],
   imports: [

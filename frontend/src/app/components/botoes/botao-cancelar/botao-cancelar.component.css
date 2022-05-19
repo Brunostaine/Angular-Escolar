@@ -1,0 +1,9 @@
+button {
+    background-color: var(--background-botao-cancelar);
+    color: #fff;
+}
+
+button:hover {
+    background-color: var(--hover-botao-cancelar);
+    color: #fff;
+}
