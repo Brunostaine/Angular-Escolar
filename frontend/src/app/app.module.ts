@@ -19,7 +19,7 @@ import {
 import { FooterComponent } from './components/templates/footer/footer.component';
 import { HeaderComponent } from './components/templates/header/header.component';
 import { NavComponent } from './components/templates/nav/nav.component';
-import { CalendarioEscolarComponent } from './views/calendario-escolar/calendario-escolar/calendario-escolar.component';
+import { CalendarioEscolarComponent } from './views/calendario-escolar/calendario-escolar.component';
 import { DiarioComponent } from './views/diario/diario/diario.component';
 import { Turma1AComponent } from './views/diario/turmas/turma1-a/turma1-a.component';
 import { Turma1BComponent } from './views/diario/turmas/turma1-b/turma1-b.component';
@@ -30,7 +30,7 @@ import { UpdateAlunosComponent } from './views/rav-relatorios/alunos/update-alun
 import { RavRelatoriosComponent } from './views/rav-relatorios/rav-relatorios.component';
 import { CreateRelatoriosComponent } from './views/rav-relatorios/relatorios/create-relatorios/create-relatorios.component';
 import { ListRelatoriosComponent } from './views/rav-relatorios/relatorios/list-relatorios/list-relatorios.component';
-import { RegimentoEscolarComponent } from './views/regimento-escolar/regimento-escolar/regimento-escolar.component';
+import { RegimentoEscolarComponent } from './views/regimento-escolar/regimento-escolar.component';
 import { SecretariaModule } from './views/secretaria/secretaria/secretaria.module';
 
 
