@@ -14,4 +14,11 @@
 
 .botton {
     margin-right: 10px;
+    background-color: var(--rav-menu-lista);
+    color: var(--texto);
+}
+
+.botton:hover{
+    background-color: var(--hover-menu-lista);
+    
 }

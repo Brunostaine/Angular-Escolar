@@ -1,15 +1,18 @@
 :root {
-    --branca: #ffffff;
-    --preta: #000000; 
-    --verde: #00796B;
-    --cyan: #00BCD4;
 
-    --background-nav: #343a40;
+/* BACKGROUND NAV */
+--background-nav: #343a40;
 
-    --background-botao-adicionar: #00796B;
-    --hover-botao-adicionar: #035f54;
+/* BOTÕES */
+--background-botao-adicionar: #00796B;
+--hover-botao-adicionar: #035f54;
 
-    --icone-edit: #d9cd26;
-    --icone-delete: #e35e6b;
-    
+/* ICONES */
+--icone-edit: #d9cd26;
+--icone-delete: #e35e6b;
+
+/* RAV menu lista */
+--rav-menu-lista:  #cbdce3;
+--hover-menu-lista: #bad0da;
+--texto: #343a40;
 }
