@@ -1,5 +1,3 @@
-import { RavRelatoriosModule } from './views/rav-relatorios/rav-relatorios.module';
-import { AngularMaterialModule } from './shared/angular-material/angular-material.module';
 import { HttpClientModule } from '@angular/common/http';
 import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
@@ -19,15 +17,14 @@ import {
 import { FooterComponent } from './components/templates/footer/footer.component';
 import { HeaderComponent } from './components/templates/header/header.component';
 import { NavComponent } from './components/templates/nav/nav.component';
+import { AngularMaterialModule } from './shared/angular-material/angular-material.module';
 import { CalendarioEscolarComponent } from './views/calendario-escolar/calendario-escolar.component';
-import { DiarioComponent } from './views/diario/diario/diario.component';
-import { Turma1AComponent } from './views/diario/turmas/turma1-a/turma1-a.component';
-import { Turma1BComponent } from './views/diario/turmas/turma1-b/turma1-b.component';
 import { HomeComponent } from './views/home/home.component';
 import { CreateAlunosComponent } from './views/rav-relatorios/alunos/create-alunos/create-alunos.component';
 import { ListAlunosComponent } from './views/rav-relatorios/alunos/list-alunos/list-alunos.component';
 import { UpdateAlunosComponent } from './views/rav-relatorios/alunos/update-alunos/update-alunos.component';
 import { RavRelatoriosComponent } from './views/rav-relatorios/rav-relatorios.component';
+import { RavRelatoriosModule } from './views/rav-relatorios/rav-relatorios.module';
 import { CreateRelatoriosComponent } from './views/rav-relatorios/relatorios/create-relatorios/create-relatorios.component';
 import { ListRelatoriosComponent } from './views/rav-relatorios/relatorios/list-relatorios/list-relatorios.component';
 import { RegimentoEscolarComponent } from './views/regimento-escolar/regimento-escolar.component';
@@ -49,12 +46,11 @@ import { SecretariaModule } from './views/secretaria/secretaria/secretaria.modul
     MatCartRavRelatoriosComponent,
     CardTitlePagesComponent,
     UpdateAlunosComponent,
-    DiarioComponent,
+
     CardDiarioTitleComponent,
     CalendarioEscolarComponent,
     RegimentoEscolarComponent,
-    Turma1AComponent,
-    Turma1BComponent,
+
     
     ListRelatoriosComponent,
           CreateRelatoriosComponent,
