@@ -16,13 +16,7 @@ import { RegimentoEscolarComponent } from './views/regimento-escolar/regimento-e
 
 const routes: Routes = [
   { path: '', component: HomeComponent },
-  { path: 'rav', component: RavRelatoriosComponent },
-  { path: 'rav/alunos', component: ListAlunosComponent },
-  { path: 'rav/aluno/create', component: CreateAlunosComponent },
-  { path: 'rav/aluno/update/:id', component: UpdateAlunosComponent },
-
-  { path: 'rav/relatorio', component: ListRelatoriosComponent },
-  { path: 'rav/relatorio/create', component: CreateRelatoriosComponent },
+  
 
   { path: 'diario', component: DiarioComponent },
   { path: 'turma-1A', component: Turma1AComponent },

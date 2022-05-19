@@ -1,3 +1,4 @@
+import { RavRelatoriosModule } from './views/rav-relatorios/rav-relatorios.module';
 import { AngularMaterialModule } from './shared/angular-material/angular-material.module';
 import { HttpClientModule } from '@angular/common/http';
 import { NgModule } from '@angular/core';
@@ -72,7 +73,7 @@ import { SecretariaModule } from './views/secretaria/secretaria/secretaria.modul
     SecretariaModule,
     
     AngularMaterialModule,
-    
+    RavRelatoriosModule,
     
 
   ],
