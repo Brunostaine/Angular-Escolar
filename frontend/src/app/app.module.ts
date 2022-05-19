@@ -28,7 +28,7 @@ import { RavRelatoriosModule } from './views/rav-relatorios/rav-relatorios.modul
 import { CreateRelatoriosComponent } from './views/rav-relatorios/relatorios/create-relatorios/create-relatorios.component';
 import { ListRelatoriosComponent } from './views/rav-relatorios/relatorios/list-relatorios/list-relatorios.component';
 import { RegimentoEscolarComponent } from './views/regimento-escolar/regimento-escolar.component';
-import { SecretariaModule } from './views/secretaria/secretaria/secretaria.module';
+import { SecretariaModule } from './views/secretaria/secretaria.module';
 
 
 
