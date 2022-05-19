@@ -1,0 +1,9 @@
+button {
+    background-color: var(--background-botao-adicionar);
+    color: #fff;
+}
+
+button:hover {
+    color: #fff;
+    background-color: var(--hover-botao-adicionar);
+}

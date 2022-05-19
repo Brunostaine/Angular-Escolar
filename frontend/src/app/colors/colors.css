@@ -1,7 +1,12 @@
 :root {
-    --branca: white;
-    --preta: black; 
+    --branca: #ffffff;
+    --preta: #000000; 
     --verde: #00796B;
     --cyan: #00BCD4;
+
+    --background-nav: #343a40;
+
+    --background-botao-adicionar: #00796B;
+    --hover-botao-adicionar: #035f54;
     
 }
