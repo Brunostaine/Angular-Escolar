@@ -26,9 +26,9 @@ import { SecretariaModule } from './views/secretaria/secretaria.module';
     AppRoutingModule,
     HttpClientModule,
     FormsModule,
+    SecretariaModule,
     
     AngularMaterialModule,
-    SecretariaModule
   ],
   providers: [],
   bootstrap: [AppComponent]

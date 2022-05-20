@@ -1,3 +1,4 @@
+import { AngularMaterialModule } from './../../shared/angular-material/angular-material.module';
 import { CardMenuComponent } from './../../components/cards/card-menu/card-menu.component';
 import { CommonModule } from '@angular/common';
 import { NgModule } from '@angular/core';
@@ -15,7 +16,8 @@ import { SecretariaComponent } from './secretaria.component';
   ],
   imports: [
     CommonModule,
-    SecretariaRoutingModule
+    SecretariaRoutingModule,
+    AngularMaterialModule
   ],
   exports: [
     BotaoAdicionarComponent,
