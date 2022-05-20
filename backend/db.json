@@ -1,64 +1,4 @@
 {
-  "sidebar": [
-    {
-      "item": "Home"
-    },
-    {
-      "item": "Turma"
-    },
-    {
-      "item": "Calendário Escolar"
-    },
-    {
-      "item": "Regimento Escolar"
-    },
-    {
-      "item": "Rav - Relatórios"
-    },
-    {
-      "item": "Logout"
-    }
-  ],
-  "type-users": [
-    {
-      "id": 1,
-      "type": "admin"
-    },
-    {
-      "id": 2,
-      "type": "diretor"
-    },
-    {
-      "id": 3,
-      "type": "coordenador"
-    },
-    {
-      "id": 4,
-      "type": "professor"
-    }
-  ],
-  "user": [
-    {
-      "id": 1,
-      "name": "Bruno",
-      "type-user": "admin"
-    },
-    {
-      "id": 2,
-      "name": "Ana",
-      "type-user": "diretor"
-    },
-    {
-      "id": 3,
-      "name": "João",
-      "type-user": "coordenador"
-    },
-    {
-      "id": 4,
-      "name": "Maria",
-      "type-user": "professor"
-    }
-  ],
   "alunos": [
     {
       "name": "teste",
@@ -80,43 +20,7 @@
       "turma": "1B",
       "id": 4
     }
-  ],
-  "questionario": [
-    {
-      "id": 1,
-      "name": "1º semestres"
-    },
-    {
-      "id": 2,
-      "name": "2º semestres"
-    }
-  ],
-  "perguntas": [
-    {
-      "id": 1,
-      "pergunta": "Aluno consegue ler?"
-    },
-    {
-      "id": 2,
-      "pergunta": "Aluno consegue ler inglês?"
-    },
-    {
-      "id": 3,
-      "pergunta": "Aluno consegue ler espanhol?"
-    }
-  ],
-  "Turmas": [
-    {
-      "id": 1,
-      "turma": "1A"
-    },
-    {
-      "id": 2,
-      "turma": "2A"
-    },
-    {
-      "id": 3,
-      "turma": "3A"
-    }
   ]
+  
+  
 }
