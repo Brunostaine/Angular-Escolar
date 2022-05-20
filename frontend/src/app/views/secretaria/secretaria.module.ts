@@ -1,3 +1,4 @@
+import { CardMenuComponent } from './../../components/cards/card-menu/card-menu.component';
 import { CommonModule } from '@angular/common';
 import { NgModule } from '@angular/core';
 
@@ -9,14 +10,16 @@ import { SecretariaComponent } from './secretaria.component';
 @NgModule({
   declarations: [
     SecretariaComponent,
-    BotaoAdicionarComponent
+    BotaoAdicionarComponent,
+    CardMenuComponent
   ],
   imports: [
     CommonModule,
     SecretariaRoutingModule
   ],
   exports: [
-    BotaoAdicionarComponent
+    BotaoAdicionarComponent,
+    CardMenuComponent
   ]
 })
 export class SecretariaModule { }
