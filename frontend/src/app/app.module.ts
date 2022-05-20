@@ -5,7 +5,6 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { CardDiarioTitleComponent } from './components/cards/card-diario-title/card-diario-title.component';
 import { FooterComponent } from './components/templates/footer/footer.component';
 import { HeaderComponent } from './components/templates/header/header.component';
 import { NavComponent } from './components/templates/nav/nav.component';
@@ -23,18 +22,7 @@ import { SecretariaModule } from './views/secretaria/secretaria.module';
     NavComponent,
     HomeComponent,
     FooterComponent,
-    
-    
-    
 
-    CardDiarioTitleComponent,
-    
-    
-
-    
-    
-          
-    
   ],
   imports: [
     BrowserModule,
@@ -42,11 +30,7 @@ import { SecretariaModule } from './views/secretaria/secretaria.module';
     HttpClientModule,
     FormsModule,
     SecretariaModule,
-    
     AngularMaterialModule,
-    
-    
-
   ],
   providers: [],
   bootstrap: [AppComponent]
