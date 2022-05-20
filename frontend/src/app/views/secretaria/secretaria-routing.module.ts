@@ -1,10 +1,9 @@
+import { SecretariaComponent } from './secretaria.component';
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 
-import { SecretariaComponent } from './secretaria.component';
-
 const routes: Routes = [
-  { path: 'secretaria', component: SecretariaComponent }, 
+  {path: 'secretaria', component: SecretariaComponent}
 ];
 
 @NgModule({

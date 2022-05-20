@@ -2,6 +2,7 @@ button {
     background-color: var(--background-botao-adicionar);
     color: #fff;
     margin-right: 10px;
+    border: none;
 }
 
 button:hover {

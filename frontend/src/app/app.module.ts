@@ -1,3 +1,4 @@
+import { SecretariaModule } from './views/secretaria/secretaria.module';
 import { HttpClientModule } from '@angular/common/http';
 import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
@@ -10,7 +11,7 @@ import { HeaderComponent } from './components/templates/header/header.component'
 import { NavComponent } from './components/templates/nav/nav.component';
 import { AngularMaterialModule } from './shared/angular-material/angular-material.module';
 import { HomeComponent } from './views/home/home.component';
-import { SecretariaModule } from './views/secretaria/secretaria.module';
+
 
 
 
@@ -22,15 +23,16 @@ import { SecretariaModule } from './views/secretaria/secretaria.module';
     NavComponent,
     HomeComponent,
     FooterComponent,
-
+    
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
     FormsModule,
-    SecretariaModule,
+    
     AngularMaterialModule,
+    SecretariaModule
   ],
   providers: [],
   bootstrap: [AppComponent]
