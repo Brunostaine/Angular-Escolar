@@ -7,6 +7,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class SecretariaComponent implements OnInit {
 
+  buttomAdicionar: string = 'Adicionar Alunos'
+
   constructor() { }
 
   ngOnInit(): void {

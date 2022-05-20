@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-botao-adicionar',
@@ -6,6 +6,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./botao-adicionar.component.css']
 })
 export class BotaoAdicionarComponent implements OnInit {
+
+  @Input('nome') buttomAdicionar: string = ''
 
   constructor() { }
 

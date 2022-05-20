@@ -1,9 +1,9 @@
-import { BotaoAdicionarComponent } from './../../components/botoes/botao-adicionar/botao-adicionar.component';
-import { SecretariaComponent } from './secretaria.component';
-import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { NgModule } from '@angular/core';
 
+import { BotaoAdicionarComponent } from './../../components/botoes/botao-adicionar/botao-adicionar.component';
 import { SecretariaRoutingModule } from './secretaria-routing.module';
+import { SecretariaComponent } from './secretaria.component';
 
 
 @NgModule({
