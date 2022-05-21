@@ -1,6 +1,7 @@
 .card {
     max-width: 300px;
-    min-width: 300px;
+    max-height: 300px;
+    
     text-align: center;
     background-color: #e6e6df;
     background-size: cover;
@@ -12,11 +13,10 @@
 }
 
 .img {
-    max-width: 250px;
-    min-width: 250px;
+    max-width: 95%;
+    height: 160px;
     background-size: cover;
     border-radius: 5px;
-
 }
 
 
