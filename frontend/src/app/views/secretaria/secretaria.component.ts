@@ -8,8 +8,10 @@ import { Component, OnInit } from '@angular/core';
 export class SecretariaComponent implements OnInit {
   
   alunos: string = 'Alunos'
+  imgAlunos: string = '/assets/img/alunos.jpg'
   funcionarios: string = 'Funcionários'
-  
+  imgFuncinarios: string = '/assets/img/funcionarios.png'
+
   buttomAdicionar: string = 'Adicionar Alunos'
 
   constructor() { }

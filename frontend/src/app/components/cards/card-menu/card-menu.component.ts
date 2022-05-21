@@ -7,8 +7,9 @@ import { Component, Input, OnInit } from '@angular/core';
 })
 export class CardMenuComponent implements OnInit {
 
-  @Input('nome') alunos: string = '';
-  @Input('nome') funcionarios: string = '';
+  @Input('nome') title: string = '';
+  @Input('img') img: string = ''
+  
 
   constructor() { }
 
