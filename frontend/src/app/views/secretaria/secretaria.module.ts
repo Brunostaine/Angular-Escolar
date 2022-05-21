@@ -7,6 +7,8 @@ import { HeaderPagesComponent } from './../../components/header-pages/header-pag
 import { AngularMaterialModule } from './../../shared/angular-material/angular-material.module';
 import { SecretariaRoutingModule } from './secretaria-routing.module';
 import { SecretariaComponent } from './secretaria.component';
+import { AlunosComponent } from './alunos/alunos.component';
+import { FuncionariosComponent } from './funcionarios/funcionarios.component';
 
 
 @NgModule({
@@ -14,7 +16,9 @@ import { SecretariaComponent } from './secretaria.component';
     SecretariaComponent,
     BotaoAdicionarComponent,
     CardMenuComponent,
-    HeaderPagesComponent
+    HeaderPagesComponent,
+    AlunosComponent,
+    FuncionariosComponent
   ],
   imports: [
     CommonModule,
