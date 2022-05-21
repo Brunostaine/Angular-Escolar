@@ -6,6 +6,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./secretaria.component.css']
 })
 export class SecretariaComponent implements OnInit {
+
+  nameHeader: string = 'Secretaria'
   
   alunos: string = 'Alunos'
   imgAlunos: string = '/assets/img/alunos.jpg'

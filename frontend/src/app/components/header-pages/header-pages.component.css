@@ -1,8 +1,12 @@
 .toolbar {
-    background-color: #747be4;
+    background-color: #6f95ff;
     margin-bottom: 10px;
+    
+    justify-content: center;
 }
 
 .title {
     color: aliceblue;
+    text-align: center;
+    text-transform: uppercase;
 }
