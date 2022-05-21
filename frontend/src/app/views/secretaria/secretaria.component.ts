@@ -6,7 +6,10 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./secretaria.component.css']
 })
 export class SecretariaComponent implements OnInit {
-
+  
+  alunos: string = 'Alunos'
+  funcionarios: string = 'Funcionários'
+  
   buttomAdicionar: string = 'Adicionar Alunos'
 
   constructor() { }
