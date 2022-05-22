@@ -19,8 +19,6 @@ import { SecretariaModule } from './views/secretaria/secretaria.module';
     NavComponent,
     HomeComponent,
     FooterComponent,
-    
-    
   ],
   imports: [
     BrowserModule,
