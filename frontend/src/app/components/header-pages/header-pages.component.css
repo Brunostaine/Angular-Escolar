@@ -1,5 +1,5 @@
 .toolbar {
-    background-color: #6f95ff;
+    background-color: var(--background-header-component);
     margin-bottom: 10px;
     
     justify-content: center;

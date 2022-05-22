@@ -1,7 +1,11 @@
 :root {
 
 /* BACKGROUND NAV */
---background-nav: #343a40;
+--background-nav: #425257;
+
+/* BACKGROUND HEADER COMPONENTES */
+
+--background-header-component: #4E5E6E;
 
 /* BOTÕES */
 --background-botao-adicionar: #00796B;
