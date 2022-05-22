@@ -7,6 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class AlunosComponent implements OnInit {
 
+  title: string = 'Alunos'
   alunos: string = '/alunos'
 
   constructor() { }
