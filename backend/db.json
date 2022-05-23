@@ -34,6 +34,48 @@
       "name": "",
       "turma": "",
       "id": 7
+    },
+    {
+      "nome": "bruno Staine Caires",
+      "turma": "Inglês Intermediário",
+      "dataNascimento": "26/05/1992",
+      "nomeMae": "Marileide Caires",
+      "nomePai": "Marcos Henrique",
+      "nascionalidade": "Brasileira",
+      "cpf": "000.123.456-87",
+      "email": "email@email.com",
+      "telefoneResponsavel": "61 9 9968-7967",
+      "telefoneResponsavel2": "61 2020-2020",
+      "tipoSanguineo": "O +",
+      "serie": "9ª série",
+      "cep": "73252130",
+      "logradouro": "Condominio imperio ",
+      "numero": "18",
+      "complemento": "casa",
+      "bairro": "Sobradinho",
+      "estado": "DF",
+      "id": 8
+    },
+    {
+      "nome": "",
+      "turma": "",
+      "dataNascimento": "",
+      "nomeMae": "",
+      "nomePai": "",
+      "nascionalidade": "",
+      "cpf": "",
+      "email": "",
+      "telefoneResponsavel": "",
+      "telefoneResponsavel2": "",
+      "tipoSanguineo": "",
+      "serie": "",
+      "cep": "",
+      "logradouro": "",
+      "numero": "",
+      "complemento": "",
+      "bairro": "",
+      "estado": "",
+      "id": 9
     }
   ]
 }

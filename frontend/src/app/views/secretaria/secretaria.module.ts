@@ -1,3 +1,4 @@
+import { FormsModule } from '@angular/forms';
 import { ButtomComponent } from './../../components/botoes/buttom/buttom.component';
 import { CommonModule } from '@angular/common';
 import { NgModule } from '@angular/core';
@@ -39,7 +40,8 @@ import { CreateAlunosComponent } from './alunos/create-alunos/create-alunos.comp
   imports: [
     CommonModule,
     SecretariaRoutingModule,
-    AngularMaterialModule
+    AngularMaterialModule,
+    FormsModule
   ],
   exports: [
     

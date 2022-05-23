@@ -17,8 +17,25 @@ export class CreateAlunosComponent implements OnInit {
   backgroundCancelar: string = 'cancelar'
 
   aluno: Alunos = {
-    name: '',
-    turma: ''
+    nome: '',
+    turma: '',
+    dataNascimento: '',
+    nomeMae: '',
+    nomePai: '',
+    nascionalidade: '',
+    cpf: '',
+    email: '',
+    telefoneResponsavel: '',
+    telefoneResponsavel2: '',
+    tipoSanguineo: '',
+    serie: '',
+        
+    cep: '',
+    logradouro: '',
+    numero: '',
+    complemento: '',
+    bairro: '',
+    estado: '',
   }
 
   constructor(private alunosService: AlunosService, private router: Router) { }
