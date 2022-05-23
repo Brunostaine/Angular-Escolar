@@ -1,6 +1,9 @@
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { MatSnackBar } from '@angular/material/snack-bar';
+import { Observable } from 'rxjs';
+
+import { Alunos } from './alunos-model';
 
 
 @Injectable({
@@ -8,7 +11,7 @@ import { MatSnackBar } from '@angular/material/snack-bar';
 })
 export class AlunosService {
 
-  
+  urlAlunos = 'http://localhost:3001/alunos'
 
   constructor(private http: HttpClient, private snackBar: MatSnackBar) { }
 
@@ -20,7 +23,11 @@ export class AlunosService {
     })
   }
 
-  
+  read(): Observable<Alunos[]> {
+    return this.http.get<Alunos[]>(this.urlAlunos);
+  }
+
+
 
   
 }

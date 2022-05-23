@@ -1,3 +1,4 @@
+import { MatSort, MatSortModule, MatSortable } from '@angular/material/sort';
 import { CommonModule } from '@angular/common';
 import { NgModule } from '@angular/core';
 import { MatButtonModule } from '@angular/material/button';
@@ -29,7 +30,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     MatListModule,
     MatButtonModule,
     MatMenuModule,
-   
+    MatSortModule,
+    
     
   ]
 })
