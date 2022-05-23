@@ -10,12 +10,19 @@ import { AlunosService } from '../alunos.service';
 export class CreateAlunosComponent implements OnInit {
 
   salvar: string = 'Salvar'
+  backgroundSalvar: string = 'salvar'
+
   cancelar: string = 'Cancelar'
+  backgroundCancelar: string = 'cancelar'
 
   constructor(private alunosService: AlunosService, private router: Router) { }
 
   ngOnInit(): void {
     
+  }
+
+  cancel(){
+    this.router.navigate(['/alunos'])
   }
 
 }

@@ -1,4 +1,4 @@
 <p>create-alunos works!</p>
 
-<app-buttom [name]="salvar"></app-buttom>
-<app-buttom [name]="cancelar"></app-buttom>
+<app-buttom [nome]="salvar" [background]="backgroundSalvar"></app-buttom>
+<app-buttom [nome]="cancelar" [background]="backgroundCancelar" (click)="cancel()"></app-buttom>

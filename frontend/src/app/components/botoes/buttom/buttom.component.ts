@@ -7,11 +7,10 @@ import { Component, OnInit, Input } from '@angular/core';
 })
 export class ButtomComponent implements OnInit {
 
-  @Input('nome') buttomAdicionar: string = ''
+  @Input('nome') buttom: string = ''
   @Input('background') background: string =  ''
 
-  @Input('name') salvar: string = ''
-  @Input('name') cancelar: string = ''
+  
 
   constructor() { }
 

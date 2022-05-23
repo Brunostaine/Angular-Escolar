@@ -17,6 +17,18 @@ button {
     background-color: var(--hover-botao-adicionar);
 }
 
+.salvar {
+    background-color: var(--background-botao-salvar);
+    color: #fff;
+    margin: 10px 10px 10px 0;
+    border: none;
+}
+
+.salvar:hover {
+    color: #fff;
+    background-color: var(--hover-botao-salvar);
+}
+
 .buscar {
     background-color: var(--background-botao-buscar);
     color: #fff;
@@ -43,7 +55,7 @@ button {
 
 
 .cancelar {
-    background-color: var(--background-botao-limpar);
+    background-color: var(--background-botao-cancelar);
     color: #fff;
     margin: 10px 10px 10px 0;
     border: none;
