@@ -1,4 +1,88 @@
-<p>create-alunos works!</p>
+<mat-card class="mat-elevation-z8">
+    <mat-card-title>Formulário de cadastro</mat-card-title>
+    
+    <mat-card-subtitle>Dados pessoais</mat-card-subtitle>
+    <form  class="example-form"> 
 
-<app-buttom [nome]="salvar" [background]="backgroundSalvar" (click)="save()"></app-buttom>
-<app-buttom [nome]="cancelar" [background]="backgroundCancelar" (click)="cancel()"></app-buttom>
+        <mat-form-field class=" example-full-width" appearance="fill">
+                <mat-label>Nome Completo do Aluno</mat-label>
+                <input matInput placeholder="Ex. Aluno da Silva" class="input" required>
+        </mat-form-field>
+
+        <mat-form-field class=" example-full-width" appearance="fill">
+            <mat-label>Data de Nascimento</mat-label>
+            <input matInput placeholder="Ex. xx/xx/xxxx" required>
+        </mat-form-field>
+        <mat-form-field class=" example-full-width" appearance="fill">
+            <mat-label>Nome Completo da Mãe</mat-label>
+            <input matInput placeholder="Ex. Mãe da Silva" required>
+        </mat-form-field>
+
+        <mat-form-field class=" example-full-width" appearance="fill">
+            <mat-label>Nome Completo do Pai</mat-label>
+            <input matInput placeholder="Ex. Pai da Silva" >
+        </mat-form-field>
+
+        
+        <mat-form-field class=" example-full-width" appearance="fill">
+            <mat-label>Nacionalidade</mat-label>
+            <input matInput placeholder="Ex. Onde nasceu" required>
+        </mat-form-field>
+
+        <mat-form-field class=" example-full-width" appearance="fill">
+            <mat-label>CPF</mat-label>
+            <input matInput placeholder="Ex. 000.000.000-00" >
+        </mat-form-field>
+
+        <mat-form-field class=" example-full-width" appearance="fill">
+            <mat-label>Email</mat-label>
+            <input type="email" matInput placeholder="Ex. email@email.com" required>
+        </mat-form-field>
+
+        <mat-form-field class=" example-full-width" appearance="fill">
+            <mat-label>Telefone do Responsável</mat-label>
+            <input matInput placeholder="Ex. (DDD) 9 0000-0000" required>
+        </mat-form-field>
+
+        <mat-form-field class=" example-full-width" appearance="fill">
+            <mat-label>Telefone do Responsável 2</mat-label>
+            <input matInput placeholder="Ex. (DDD) 9 0000-0000" >
+        </mat-form-field>
+
+        <mat-form-field appearance="fill" class="example-full-width">
+            <mat-label>Tipo Sanguineo</mat-label>
+                <select matNativeControl required>
+                    <option disabled selected label="Selecione uma opção"></option>
+                    <option value="A +">( A + )</option>
+                    <option value="A -">( A - )</option>
+                    <option value="B +">( B + )</option>
+                    <option value="B -">( B - )</option>
+                    <option value="O +">( O + )</option>
+                    <option value="O -">( O - )</option>
+                    <option value="AB +">( AB + )</option>
+                    <option value="AB -">( AB - )</option>
+                </select>
+        </mat-form-field>
+
+        <mat-form-field appearance="fill" class="example-full-width">
+            <mat-label>Série</mat-label>
+                <select matNativeControl required>
+                    <option disabled selected label="Selecione uma opção"></option>
+                    <option value="1ª série">1ª série</option>
+                    <option value="2ª série">2ª série</option>
+                    <option value="3ª série">3ª série</option>
+                    <option value="4ª série">4ª série</option>
+                    <option value="5ª série">5ª série</option>
+                    <option value="6ª série">6ª série</option>
+                    <option value="7ª série">7ª série</option>
+                    <option value="8ª série">8ª série</option>
+                    <option value="9ª série">9ª série</option>
+                </select>
+        </mat-form-field>
+    </form>
+
+    <app-buttom [nome]="salvar" [background]="backgroundSalvar" (click)="save()"></app-buttom>
+    <app-buttom [nome]="cancelar" [background]="backgroundCancelar" (click)="cancel()"></app-buttom>
+
+</mat-card>
+
