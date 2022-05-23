@@ -12,7 +12,7 @@ export class ListaAlunosComponent implements OnInit {
 
 alunos: Alunos[] = [];
 
-displayedColumns: string[] = ['id', 'name', 'turma',];
+displayedColumns: string[] = ['id', 'name', 'turma', 'acao'];
 
 constructor( private alunosService: AlunosService) { }
 

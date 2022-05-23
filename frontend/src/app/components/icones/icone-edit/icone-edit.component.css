@@ -1,4 +1,5 @@
 .icone {
     color: var(--icone-edit);
     cursor: pointer;
+    margin-right: 10px;
 }

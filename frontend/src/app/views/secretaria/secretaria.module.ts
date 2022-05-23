@@ -1,3 +1,5 @@
+import { IconeDeleteComponent } from './../../components/icones/icone-delete/icone-delete.component';
+import { IconeEditComponent } from './../../components/icones/icone-edit/icone-edit.component';
 import { CommonModule } from '@angular/common';
 import { NgModule } from '@angular/core';
 
@@ -24,7 +26,9 @@ import { ListaAlunosComponent } from './alunos/lista-alunos/lista-alunos.compone
     FuncionariosComponent,
     CardIconeComponent,
     BuscarAlunosComponent,
-    ListaAlunosComponent
+    ListaAlunosComponent,
+    IconeEditComponent,
+    IconeDeleteComponent
   ],
   imports: [
     CommonModule,
@@ -34,7 +38,9 @@ import { ListaAlunosComponent } from './alunos/lista-alunos/lista-alunos.compone
   exports: [
     BotaoAdicionarComponent,
     CardMenuComponent,
-    HeaderPagesComponent
+    HeaderPagesComponent,
+    IconeEditComponent,
+    IconeDeleteComponent
     
   ]
 })
