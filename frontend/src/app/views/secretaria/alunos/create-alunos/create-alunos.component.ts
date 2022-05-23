@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
+import { Alunos } from '../alunos-model';
 import { AlunosService } from '../alunos.service';
 
 @Component({
@@ -15,10 +16,24 @@ export class CreateAlunosComponent implements OnInit {
   cancelar: string = 'Cancelar'
   backgroundCancelar: string = 'cancelar'
 
+  aluno: Alunos = {
+    name: '',
+    turma: ''
+  }
+
   constructor(private alunosService: AlunosService, private router: Router) { }
 
   ngOnInit(): void {
     
+  }
+
+  save(){
+    this.alunosService.create(this.aluno).subscribe((aluno) => {
+      this.aluno = aluno
+      console.log(aluno)
+    })
+    this.alunosService.showMessage('Aluno cadastrado com sucesso!')
+    this.router.navigate(['/alunos'])
   }
 
   cancel(){

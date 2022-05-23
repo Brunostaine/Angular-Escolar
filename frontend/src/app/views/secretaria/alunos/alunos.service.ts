@@ -23,9 +23,15 @@ export class AlunosService {
     })
   }
 
+  create(aluno: Alunos): Observable<Alunos> {
+    return this.http.post<Alunos>(this.urlAlunos, aluno)
+  }
+
   read(): Observable<Alunos[]> {
     return this.http.get<Alunos[]>(this.urlAlunos);
   }
+
+  
 
 
 
