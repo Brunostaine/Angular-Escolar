@@ -1,3 +1,7 @@
+.display {
+    display: flex;
+}
+
 .card {
     border: 1px solid #bebbbb;
     background-color: #f0f8ff;
