@@ -12,3 +12,7 @@
 .sidenav i {
     padding-right: 10px;
 }
+
+.logo {
+    max-height: 64px;
+}

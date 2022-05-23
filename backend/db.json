@@ -118,6 +118,27 @@
       "bairro": "",
       "estado": "",
       "id": 11
+    },
+    {
+      "nome": "Bruno Staine",
+      "turma": "Inglês Intermediário",
+      "dataNascimento": "",
+      "nomeMae": "",
+      "nomePai": "",
+      "nascionalidade": "",
+      "cpf": "",
+      "email": "",
+      "telefoneResponsavel": "",
+      "telefoneResponsavel2": "",
+      "tipoSanguineo": "",
+      "serie": "Indefinido",
+      "cep": "",
+      "logradouro": "",
+      "numero": "",
+      "complemento": "",
+      "bairro": "",
+      "estado": "",
+      "id": 12
     }
   ]
 }

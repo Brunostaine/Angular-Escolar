@@ -1,7 +1,9 @@
 .header {
     display: flex;
+    justify-content: center;
     align-items: center;
     background-color: var(--background-nav);
+    
     
 }
 
@@ -10,11 +12,10 @@
     align-items: center;
     text-decoration: none;
     color: #f0f8ff;
+    
 }
 
-.header .logo {
-    max-height: 64px;
-}
+
 
 
 .title-group{
