@@ -19,7 +19,6 @@ constructor( private alunosService: AlunosService) { }
 ngOnInit(): void {
   this.alunosService.read().subscribe((alunos) => {
     this.alunos = alunos;
-    console.log(alunos)
   })
 }
 
