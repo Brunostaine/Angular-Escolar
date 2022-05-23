@@ -1,3 +1,4 @@
+import { ButtomComponent } from './../../components/botoes/buttom/buttom.component';
 import { CommonModule } from '@angular/common';
 import { NgModule } from '@angular/core';
 
@@ -31,6 +32,7 @@ import { SecretariaComponent } from './secretaria.component';
     IconeEditComponent,
     IconeDeleteComponent,
     IconeVisualizarComponent,
+    ButtomComponent
   ],
   imports: [
     CommonModule,
@@ -45,6 +47,7 @@ import { SecretariaComponent } from './secretaria.component';
     IconeEditComponent,
     IconeDeleteComponent,
     IconeVisualizarComponent,
+    ButtomComponent
     
   ]
 })

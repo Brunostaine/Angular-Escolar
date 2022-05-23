@@ -7,6 +7,12 @@ import { Component, OnInit } from '@angular/core';
 })
 export class BuscarAlunosComponent implements OnInit {
 
+  buscar: string = 'Buscar'
+  background: string = 'buscar'
+
+  limpar: string = 'Limpar'
+  backgroundLimpar: string = 'limpar'
+
   constructor() { }
 
   ngOnInit(): void {
