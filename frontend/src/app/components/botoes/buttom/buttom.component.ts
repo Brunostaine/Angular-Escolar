@@ -10,6 +10,9 @@ export class ButtomComponent implements OnInit {
   @Input('nome') buttomAdicionar: string = ''
   @Input('background') background: string =  ''
 
+  @Input('name') salvar: string = ''
+  @Input('name') cancelar: string = ''
+
   constructor() { }
 
   ngOnInit(): void {

@@ -16,6 +16,7 @@ import { ListaAlunosComponent } from './alunos/lista-alunos/lista-alunos.compone
 import { FuncionariosComponent } from './funcionarios/funcionarios.component';
 import { SecretariaRoutingModule } from './secretaria-routing.module';
 import { SecretariaComponent } from './secretaria.component';
+import { CreateAlunosComponent } from './alunos/create-alunos/create-alunos.component';
 
 
 @NgModule({
@@ -32,7 +33,8 @@ import { SecretariaComponent } from './secretaria.component';
     IconeEditComponent,
     IconeDeleteComponent,
     IconeVisualizarComponent,
-    ButtomComponent
+    ButtomComponent,
+    CreateAlunosComponent
   ],
   imports: [
     CommonModule,
