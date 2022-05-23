@@ -2,7 +2,7 @@ import { ButtomComponent } from './../../components/botoes/buttom/buttom.compone
 import { CommonModule } from '@angular/common';
 import { NgModule } from '@angular/core';
 
-import { BotaoAdicionarComponent } from './../../components/botoes/botao-adicionar/botao-adicionar.component';
+
 import { CardIconeComponent } from './../../components/cards/card-icone/card-icone.component';
 import { CardMenuComponent } from './../../components/cards/card-menu/card-menu.component';
 import { HeaderPagesComponent } from './../../components/header-pages/header-pages.component';
@@ -21,7 +21,7 @@ import { SecretariaComponent } from './secretaria.component';
 @NgModule({
   declarations: [
     SecretariaComponent,
-    BotaoAdicionarComponent,
+    
     CardMenuComponent,
     HeaderPagesComponent,
     AlunosComponent,
@@ -40,7 +40,7 @@ import { SecretariaComponent } from './secretaria.component';
     AngularMaterialModule
   ],
   exports: [
-    BotaoAdicionarComponent,
+    
     CardMenuComponent,
     HeaderPagesComponent,
     
