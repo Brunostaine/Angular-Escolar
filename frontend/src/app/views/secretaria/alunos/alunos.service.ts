@@ -32,12 +32,12 @@ export class AlunosService {
   }
 
   readById(id: string): Observable<Alunos> {
-    const url = ` ${this.urlAlunos}/ ${id}`;
+    const url = ` ${this.urlAlunos}/${id}`;
     return this.http.get<Alunos>(url);
   }
 
   update(aluno: Alunos): Observable<Alunos> {
-    const url = ` ${this.urlAlunos}/ ${aluno.id}`;
+    let url = `${this.urlAlunos}/${aluno.id}`;
     return this.http.put<Alunos>(url, aluno);
   }
 

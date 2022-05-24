@@ -30,7 +30,7 @@
     </th>
     <td mat-cell *matCellDef="let element">
       <app-icone-visualizar></app-icone-visualizar> 
-      <icone-edit></icone-edit> 
+      <icone-edit routerLink="/secretaria/alunos/update/{{ element.id }}"></icone-edit> 
       <icone-delete></icone-delete>
     </td>
   </ng-container>

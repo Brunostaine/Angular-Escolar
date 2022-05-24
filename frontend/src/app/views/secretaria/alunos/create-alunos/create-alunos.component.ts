@@ -57,7 +57,7 @@ export class CreateAlunosComponent implements OnInit {
 }
 
   cancel(){
-      this.router.navigate(['/alunos'])
+      this.router.navigate(['/secretaria/alunos'])
     
   }
 

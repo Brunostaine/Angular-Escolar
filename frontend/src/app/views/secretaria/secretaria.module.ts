@@ -1,9 +1,8 @@
-import { FormsModule } from '@angular/forms';
-import { ButtomComponent } from './../../components/botoes/buttom/buttom.component';
 import { CommonModule } from '@angular/common';
 import { NgModule } from '@angular/core';
+import { FormsModule } from '@angular/forms';
 
-
+import { ButtomComponent } from './../../components/botoes/buttom/buttom.component';
 import { CardIconeComponent } from './../../components/cards/card-icone/card-icone.component';
 import { CardMenuComponent } from './../../components/cards/card-menu/card-menu.component';
 import { HeaderPagesComponent } from './../../components/header-pages/header-pages.component';
@@ -13,11 +12,13 @@ import { IconeVisualizarComponent } from './../../components/icones/icone-visual
 import { AngularMaterialModule } from './../../shared/angular-material/angular-material.module';
 import { AlunosComponent } from './alunos/alunos.component';
 import { BuscarAlunosComponent } from './alunos/buscar-alunos/buscar-alunos.component';
+import { CreateAlunosComponent } from './alunos/create-alunos/create-alunos.component';
 import { ListaAlunosComponent } from './alunos/lista-alunos/lista-alunos.component';
+import { UpdateAlunosComponent } from './alunos/update-alunos/update-alunos.component';
 import { FuncionariosComponent } from './funcionarios/funcionarios.component';
 import { SecretariaRoutingModule } from './secretaria-routing.module';
 import { SecretariaComponent } from './secretaria.component';
-import { CreateAlunosComponent } from './alunos/create-alunos/create-alunos.component';
+
 
 
 @NgModule({
@@ -35,7 +36,8 @@ import { CreateAlunosComponent } from './alunos/create-alunos/create-alunos.comp
     IconeDeleteComponent,
     IconeVisualizarComponent,
     ButtomComponent,
-    CreateAlunosComponent
+    CreateAlunosComponent,
+    UpdateAlunosComponent
   ],
   imports: [
     CommonModule,
