@@ -45,6 +45,8 @@ export class CreateAlunosComponent implements OnInit {
   }
 
   save(){
+
+    if(this.aluno.nome !== ''){
     this.alunosService.create(this.aluno).subscribe((aluno) => {
       this.aluno = aluno
       this.router.navigate(['/alunos'])
@@ -52,9 +54,11 @@ export class CreateAlunosComponent implements OnInit {
     })
     this.alunosService.showMessage('Aluno cadastrado com sucesso!')
   }
+}
 
   cancel(){
-    this.router.navigate(['/alunos'])
+      this.router.navigate(['/alunos'])
+    
   }
 
 }
