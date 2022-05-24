@@ -52,7 +52,7 @@ export class CreateAlunosComponent implements OnInit {
       this.router.navigate(['/alunos'])
       
     })
-    this.alunosService.showMessage('Aluno cadastrado com sucesso!')
+      this.alunosService.showMessage('Aluno cadastrado com sucesso!')
   }
 }
 

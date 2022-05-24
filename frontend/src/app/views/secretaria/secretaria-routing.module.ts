@@ -8,9 +8,9 @@ import { SecretariaComponent } from './secretaria.component';
 
 const routes: Routes = [
   { path: 'secretaria', component: SecretariaComponent },
-  { path: 'alunos', component: AlunosComponent },
-  { path: 'funcionarios', component: FuncionariosComponent },
-  { path: 'create', component: CreateAlunosComponent },
+  { path: 'secretaria/alunos', component: AlunosComponent },
+  { path: 'secretaria/funcionarios', component: FuncionariosComponent },
+  { path: 'secretaria/alunos/create', component: CreateAlunosComponent },
 
 ];
 

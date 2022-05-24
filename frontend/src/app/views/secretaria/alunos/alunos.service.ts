@@ -24,16 +24,21 @@ export class AlunosService {
   }
 
   create(aluno: Alunos): Observable<Alunos> {
-    return this.http.post<Alunos>(this.urlAlunos, aluno)
+    return this.http.post<Alunos>(this.urlAlunos, aluno);
   }
 
   read(): Observable<Alunos[]> {
     return this.http.get<Alunos[]>(this.urlAlunos);
   }
 
-  
+  readById(id: string): Observable<Alunos> {
+    const url = ` ${this.urlAlunos}/ ${id}`;
+    return this.http.get<Alunos>(url);
+  }
 
+  update(aluno: Alunos): Observable<Alunos> {
+    const url = ` ${this.urlAlunos}/ ${aluno.id}`;
+    return this.http.put<Alunos>(url, aluno);
+  }
 
-
-  
 }
