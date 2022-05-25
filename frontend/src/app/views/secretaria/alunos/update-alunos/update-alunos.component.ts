@@ -1,7 +1,8 @@
 import { AlunosService } from './../alunos.service';
 import { Alunos } from './../alunos-model';
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
+import { FormControl, NgControlStatus } from '@angular/forms';
 
 @Component({
   selector: 'app-update-alunos',
@@ -16,7 +17,23 @@ export class UpdateAlunosComponent implements OnInit {
   cancelar: string = 'Cancelar'
   backgroundCancelar: string = 'cancelar'
 
-  aluno?: Alunos;
+  aluno: Alunos = {
+    nome: '',
+    dataNascimento: '',
+    nomeMae: '',
+    nascionalidade: '',
+    cpf: '',
+    email: '',
+    telefoneResponsavel: '',
+    telefoneResponsavel2: '',
+    tipoSanguineo: '',
+    serie: '',
+    cep: '',
+    logradouro: '',
+    numero: '',
+    bairro: '',
+    estado: ''
+  };
 
   constructor(private route: ActivatedRoute, private alunosService: AlunosService, private router: Router) { }
 
@@ -25,6 +42,14 @@ export class UpdateAlunosComponent implements OnInit {
     this.alunosService.readById(id).subscribe(aluno => {
       this.aluno = aluno;
     })
+  }
+
+  updateAluno(): void{
+    this.alunosService.update(this.aluno).subscribe( () => {
+      this.alunosService.showMessage('Atualizado com sucesso!')
+      this.router.navigate(['/secretaria/alunos'])
+    })
+    
   }
 
   cancel(){
