@@ -49,7 +49,7 @@ export class CreateAlunosComponent implements OnInit {
     if(this.aluno.nome !== ''){
     this.alunosService.create(this.aluno).subscribe((aluno) => {
       this.aluno = aluno
-      this.router.navigate(['/alunos'])
+      this.router.navigate(['/secretaria/alunos'])
       
     })
       this.alunosService.showMessage('Aluno cadastrado com sucesso!')

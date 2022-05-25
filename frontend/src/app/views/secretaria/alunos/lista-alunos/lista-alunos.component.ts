@@ -43,10 +43,7 @@ delete(id: any) {
         this.alunosService.delete(id).subscribe(
           success => {
             this.alunosService.showMessage('Aluno deletado!')
-        },
-          error => {
-            this.alunosService.showMessage('Tivemos um erro ao tentar deletar o usuario, tente novamente mais tarde.')
-        }
+          }
         )
         
       }
