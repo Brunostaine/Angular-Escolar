@@ -20,7 +20,6 @@ import { SecretariaModule } from './views/secretaria/secretaria.module';
     HomeComponent,
     FooterComponent,
     
-    
   ],
   imports: [
     BrowserModule,

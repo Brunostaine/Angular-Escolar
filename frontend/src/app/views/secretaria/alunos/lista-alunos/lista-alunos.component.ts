@@ -1,5 +1,8 @@
 import { Component, OnInit } from '@angular/core';
+import { MatDialog } from '@angular/material/dialog';
+import { Router } from '@angular/router';
 
+import { DialogConfirmComponent } from './../../../../components/dialog-confirm/dialog-confirm.component';
 import { Alunos } from './../alunos-model';
 import { AlunosService } from './../alunos.service';
 
@@ -14,7 +17,9 @@ alunos: Alunos[] = [];
 
 displayedColumns: string[] = ['id', 'name', 'serie', 'acao'];
 
-constructor( private alunosService: AlunosService) { }
+constructor( private alunosService: AlunosService, private matDialog: MatDialog, private router: Router) { }
+
+
 
 ngOnInit(): void {
   this.alunosService.read().subscribe((alunos) => {
@@ -22,12 +27,36 @@ ngOnInit(): void {
   })
 }
 
+refresh() {
+  location.reload()
+}
+
 create(): void {
   this.alunosService.showMessage('Aluno cadastrado com sucesso!')
 }
 
-delete(): void {
-  this.alunosService.showMessage('Aluno deletado com sucesso!')
+delete(id: any) {
+  const dialogReference = this.matDialog.open(DialogConfirmComponent);
+        dialogReference.afterClosed().subscribe(valorResponse => {
+
+    if(valorResponse) {
+        this.alunosService.delete(id).subscribe(
+          success => {
+            this.alunosService.showMessage('Aluno deletado!')
+        },
+          error => {
+            this.alunosService.showMessage('Tivemos um erro ao tentar deletar o usuario, tente novamente mais tarde.')
+        }
+        )
+        
+      }
+      
+      
+
+    
+  })
+  
+  // this.alunosService.showMessage('Aluno deletado com sucesso!')
 }
 
 post(): void {

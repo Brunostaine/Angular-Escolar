@@ -1,3 +1,4 @@
+import { DialogConfirmComponent } from './../../components/dialog-confirm/dialog-confirm.component';
 import { CommonModule } from '@angular/common';
 import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
@@ -37,7 +38,8 @@ import { SecretariaComponent } from './secretaria.component';
     IconeVisualizarComponent,
     ButtomComponent,
     CreateAlunosComponent,
-    UpdateAlunosComponent
+    UpdateAlunosComponent,
+    DialogConfirmComponent
   ],
   imports: [
     CommonModule,
@@ -53,7 +55,8 @@ import { SecretariaComponent } from './secretaria.component';
     IconeEditComponent,
     IconeDeleteComponent,
     IconeVisualizarComponent,
-    ButtomComponent
+    ButtomComponent,
+    DialogConfirmComponent
     
   ]
 })
