@@ -4,43 +4,50 @@
       "name": "Ana",
       "turma": "1A",
       "id": 1,
-      "nome": "Marli"
+      "nome": "Marli",
+      "serie": "5ª série"
     },
     {
       "name": "Alfredo",
       "turma": "1B",
       "id": 2,
-      "nome": "Luana da silva"
+      "nome": "Luana da silva",
+      "serie": "7ª série"
     },
     {
       "name": "Aline",
       "turma": "1C",
       "id": 3,
-      "nome": "Lucas Carvalho"
+      "nome": "Lucas Carvalho",
+      "serie": "4ª série"
     },
     {
       "name": "Sebastiana",
       "turma": "1B",
       "id": 4,
-      "nome": "Gabriella dos Santos"
+      "nome": "Gabriella dos Santos",
+      "serie": "3ª série"
     },
     {
       "name": "",
       "turma": "",
       "id": 5,
-      "nome": "Ana Paula Queiroz"
+      "nome": "Ana Paula Queiroz",
+      "serie": "2ª série"
     },
     {
       "name": "",
       "turma": "",
       "id": 6,
-      "nome": "Sergio Reis "
+      "nome": "Sergio Reis ",
+      "serie": "4ª série"
     },
     {
       "name": "",
       "turma": "",
       "id": 7,
-      "nome": "Maria Cavalcante"
+      "nome": "Maria Cavalcante",
+      "serie": "3ª série"
     },
     {
       "nome": "bruno Staine Caires",
@@ -75,7 +82,7 @@
       "telefoneResponsavel": "",
       "telefoneResponsavel2": "",
       "tipoSanguineo": "",
-      "serie": "",
+      "serie": "8ª série",
       "cep": "",
       "logradouro": "",
       "numero": "",
@@ -96,7 +103,7 @@
       "telefoneResponsavel": "",
       "telefoneResponsavel2": "",
       "tipoSanguineo": "",
-      "serie": "",
+      "serie": "9ª série",
       "cep": "",
       "logradouro": "",
       "numero": "",
@@ -117,7 +124,7 @@
       "telefoneResponsavel": "",
       "telefoneResponsavel2": "",
       "tipoSanguineo": "",
-      "serie": "",
+      "serie": "7ª série",
       "cep": "",
       "logradouro": "",
       "numero": "",
