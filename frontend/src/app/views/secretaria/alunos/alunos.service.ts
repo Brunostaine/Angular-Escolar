@@ -31,7 +31,7 @@ export class AlunosService {
     return this.http.get<Alunos[]>(this.urlAlunos);
   }
 
-  readById(id: string): Observable<Alunos> {
+  readById(id: any): Observable<Alunos> {
     const url = ` ${this.urlAlunos}/${id}`;
     return this.http.get<Alunos>(url);
   }
