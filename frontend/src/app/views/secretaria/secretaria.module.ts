@@ -1,3 +1,4 @@
+import { AlunoComponent } from './../../components/aluno/aluno.component';
 import { CommonModule } from '@angular/common';
 import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
@@ -42,6 +43,7 @@ import { ReadAlunoComponent } from './alunos/read-aluno/read-aluno.component';
     UpdateAlunosComponent,
     DialogConfirmComponent,
     ReadAlunoComponent,
+    AlunoComponent,
     
   ],
   imports: [
@@ -60,6 +62,7 @@ import { ReadAlunoComponent } from './alunos/read-aluno/read-aluno.component';
     IconeVisualizarComponent,
     ButtomComponent,
     DialogConfirmComponent,
+    AlunoComponent,
     
     
   ]
