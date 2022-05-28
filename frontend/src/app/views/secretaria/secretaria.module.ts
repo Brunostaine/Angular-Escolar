@@ -1,4 +1,3 @@
-import { DialogConfirmComponent } from './../../components/dialog-confirm/dialog-confirm.component';
 import { CommonModule } from '@angular/common';
 import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
@@ -6,6 +5,7 @@ import { FormsModule } from '@angular/forms';
 import { ButtomComponent } from './../../components/botoes/buttom/buttom.component';
 import { CardIconeComponent } from './../../components/cards/card-icone/card-icone.component';
 import { CardMenuComponent } from './../../components/cards/card-menu/card-menu.component';
+import { DialogConfirmComponent } from './../../components/dialog-confirm/dialog-confirm.component';
 import { HeaderPagesComponent } from './../../components/header-pages/header-pages.component';
 import { IconeDeleteComponent } from './../../components/icones/icone-delete/icone-delete.component';
 import { IconeEditComponent } from './../../components/icones/icone-edit/icone-edit.component';
@@ -39,7 +39,8 @@ import { SecretariaComponent } from './secretaria.component';
     ButtomComponent,
     CreateAlunosComponent,
     UpdateAlunosComponent,
-    DialogConfirmComponent
+    DialogConfirmComponent,
+    
   ],
   imports: [
     CommonModule,
@@ -56,7 +57,8 @@ import { SecretariaComponent } from './secretaria.component';
     IconeDeleteComponent,
     IconeVisualizarComponent,
     ButtomComponent,
-    DialogConfirmComponent
+    DialogConfirmComponent,
+    
     
   ]
 })
