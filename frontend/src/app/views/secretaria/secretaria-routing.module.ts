@@ -1,3 +1,4 @@
+import { ReadAlunoComponent } from './alunos/read-aluno/read-aluno.component';
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 
@@ -13,6 +14,7 @@ const routes: Routes = [
   { path: 'secretaria/funcionarios', component: FuncionariosComponent },
   { path: 'secretaria/alunos/create', component: CreateAlunosComponent },
   { path: 'secretaria/alunos/update/:id', component: UpdateAlunosComponent },
+  { path: 'secretaria/alunos/aluno/:id', component: ReadAlunoComponent },
   
 ];
 

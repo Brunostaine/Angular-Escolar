@@ -29,7 +29,7 @@
       Ações
     </th>
     <td mat-cell *matCellDef="let element">
-      <app-icone-visualizar routerLink=""></app-icone-visualizar> 
+      <app-icone-visualizar routerLink="/secretaria/alunos/aluno/{{element.id}}"></app-icone-visualizar> 
       <icone-edit routerLink="/secretaria/alunos/update/{{ element.id }}"></icone-edit> 
       <icone-delete (click)="delete(element.id)"></icone-delete>
     </td>
