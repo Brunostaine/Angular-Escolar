@@ -21,7 +21,7 @@ export class UpdateAlunosComponent implements OnInit {
     nome: '',
     dataNascimento: '',
     nomeMae: '',
-    nascionalidade: '',
+    nacionalidade: '',
     cpf: '',
     email: '',
     telefoneResponsavel: '',

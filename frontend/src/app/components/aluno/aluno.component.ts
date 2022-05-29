@@ -13,7 +13,7 @@ export class AlunoComponent implements OnInit {
     nome: '',
     dataNascimento: '',
     nomeMae: '',
-    nascionalidade: '',
+    nacionalidade: '',
     cpf: '',
     email: '',
     telefoneResponsavel: '',

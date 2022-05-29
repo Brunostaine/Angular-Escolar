@@ -5,7 +5,7 @@ export interface Alunos {
     dataNascimento: string
     nomeMae: string
     nomePai?: string
-    nascionalidade: string
+    nacionalidade: string
     cpf: string
     email: string
     telefoneResponsavel: string
@@ -16,9 +16,10 @@ export interface Alunos {
     sexo?: string
     estadoCivil?: string
     localNascimento?: string
-    idade?: number
+    cor?: string
+    idade?: string
     necessidadesEspeciais?: string
-    rg?: number
+    rg?: string
     orgaoExpedidor?: string
     dataExpedicao?: string
     uf?: string
