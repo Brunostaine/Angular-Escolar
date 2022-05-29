@@ -19,8 +19,10 @@ export class UpdateAlunosComponent implements OnInit {
 
   aluno: Alunos = {
     nome: '',
+    turma: '',
     dataNascimento: '',
     nomeMae: '',
+    nomePai: '',
     nacionalidade: '',
     cpf: '',
     email: '',
@@ -28,12 +30,25 @@ export class UpdateAlunosComponent implements OnInit {
     telefoneResponsavel2: '',
     tipoSanguineo: '',
     serie: '',
+
+    sexo: '',
+    estadoCivil: '',
+    localNascimento: '',
+    cor: '',
+    idade: '',
+    necessidadesEspeciais: '',
+    rg: '',
+    orgaoExpedidor: '',
+    dataExpedicao: '',
+    uf: '',
+        
     cep: '',
     logradouro: '',
     numero: '',
+    complemento: '',
     bairro: '',
-    estado: ''
-  };
+    estado: '',
+  }
 
   constructor(private route: ActivatedRoute, private alunosService: AlunosService, private router: Router) { }
 

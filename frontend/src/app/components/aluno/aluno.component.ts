@@ -33,7 +33,7 @@ export class AlunoComponent implements OnInit {
     orgaoExpedidor: '',
     dataExpedicao: '',
     uf: '',
-        
+
     cep: '',
     logradouro: '',
     numero: '',
