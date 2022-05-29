@@ -18,7 +18,16 @@
       "numero": "25",
       "complemento": "Casa",
       "bairro": "Sobradinho",
-      "estado": "DF"
+      "estado": "DF",
+      "estadoCivil": "Solteiro(a)",
+      "cor": "Pardo",
+      "sexo": "Feminino",
+      "nacionalidade": "Brasileira",
+      "rg": "0123456",
+      "orgaoExpedidor": "ssp-df",
+      "dataExpedicao": "01/05/1991",
+      "uf": "DF",
+      "necessidadesEspeciais": "Não"
     },
     {
       "nome": "Joaquina guimares",
