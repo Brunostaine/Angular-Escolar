@@ -4,12 +4,12 @@
         <div class="card-input">
                 <mat-form-field class=" input example-form-field" appearance="fill">
                     <mat-label>Matrícula</mat-label>
-                    <input matInput type="text">
+                    <input matInput type="text" >
                 </mat-form-field>
     
                 <mat-form-field class=" input example-form-field" appearance="fill">
                     <mat-label>Nome</mat-label>
-                    <input matInput type="text">
+                    <input matInput type="text" [(ngModel)]="aluno.nome"  name="nome">
                 </mat-form-field>
     
                 <mat-form-field class=" input example-form-field" appearance="fill">
@@ -24,7 +24,7 @@
     
                 <mat-form-field class=" input example-form-field" appearance="fill">
                     <mat-label>Data de Nascimento</mat-label>
-                    <input matInput type="text">
+                    <input matInput type="text" [(ngModel)]="aluno.dataNascimento"  name="dataNascimento">
                 </mat-form-field>
 
                 <mat-form-field class=" input example-form-field" appearance="fill">

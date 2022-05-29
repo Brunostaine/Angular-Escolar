@@ -2,11 +2,23 @@
   "alunos": [
     {
       "name": "Ana",
-      "turma": "1A",
+      "turma": "Inglês Básico",
       "id": 1,
       "nome": "Marli da silva",
       "serie": "5ª série",
-      "nomeMae": "Marilene da silva"
+      "nomeMae": "Marilene da silva",
+      "dataNascimento": "02/08/1988",
+      "nomePai": "João da silva",
+      "cpf": "081.082.093-69",
+      "email": "marli@email.com",
+      "telefoneResponsavel": "061 9 0000 0000",
+      "tipoSanguineo": "AB +",
+      "cep": "7313265",
+      "logradouro": "condominio residencial maravilha",
+      "numero": "25",
+      "complemento": "Casa",
+      "bairro": "Sobradinho",
+      "estado": "DF"
     },
     {
       "nome": "Joaquina guimares",

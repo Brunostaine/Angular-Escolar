@@ -12,6 +12,16 @@ export interface Alunos {
     telefoneResponsavel2: string
     tipoSanguineo: string
     serie: string
+
+    sexo?: string
+    estadoCivil?: string
+    localNascimento?: string
+    idade?: number
+    necessidadesEspeciais?: string
+    rg?: number
+    orgaoExpedidor?: string
+    dataExpedicao?: string
+    uf?: string
     
     cep: string
     logradouro: string
