@@ -59,10 +59,9 @@ save(){
       })
         this.funcionariosService.showMessage('Funcionário cadastrado com sucesso!')
   }
-
-
 }
-cancel(){
 
+cancel(){
+  this.router.navigate(['/secretaria/funcionarios'])
 }
 }
