@@ -21,6 +21,7 @@ import { UpdateAlunosComponent } from './alunos/update-alunos/update-alunos.comp
 import { FuncionariosComponent } from './funcionarios/funcionarios.component';
 import { SecretariaRoutingModule } from './secretaria-routing.module';
 import { SecretariaComponent } from './secretaria.component';
+import { CreateFuncionariosComponent } from './funcionarios/create-funcionarios/create-funcionarios.component';
 
 
 
@@ -44,6 +45,7 @@ import { SecretariaComponent } from './secretaria.component';
     DialogConfirmComponent,
     ReadAlunoComponent,
     AlunoComponent,
+    CreateFuncionariosComponent,
     
     
   ],
