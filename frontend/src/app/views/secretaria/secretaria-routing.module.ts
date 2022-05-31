@@ -15,7 +15,8 @@ const routes: Routes = [
   { path: 'secretaria/alunos/create', component: CreateAlunosComponent },
   { path: 'secretaria/alunos/update/:id', component: UpdateAlunosComponent },
   { path: 'secretaria/alunos/aluno/:id', component: ReadAlunoComponent },
-  
+  { path: 'secretaria/funcionarios', component: FuncionariosComponent },
+
 ];
 
 @NgModule({

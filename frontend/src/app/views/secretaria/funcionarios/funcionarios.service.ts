@@ -10,9 +10,9 @@ import { Funcionarios } from './funcionarios-model';
 })
 export class FuncionariosService {
 
-  urlFuncionarios = ''
+  urlFuncionarios = 'http://localhost:3001/funcinarios'
 
-  constructor(private http: HttpClient,private snackBar: MatSnackBar) { }
+  constructor(private http: HttpClient, private snackBar: MatSnackBar) { }
 
   create(funcionario: Funcionarios): Observable<Funcionarios> {
     return this.http.post<Funcionarios>(this.urlFuncionarios, funcionario);
