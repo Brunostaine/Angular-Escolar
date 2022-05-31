@@ -10,7 +10,7 @@ import { Funcionarios } from './funcionarios-model';
 })
 export class FuncionariosService {
 
-  urlFuncionarios = 'http://localhost:3001/funcinarios'
+  urlFuncionarios = 'http://localhost:3001/funcionarios'
 
   constructor(private http: HttpClient, private snackBar: MatSnackBar) { }
 

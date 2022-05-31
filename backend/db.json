@@ -216,8 +216,34 @@
       "estado": "DF",
       "id": 9
     }
-  ], 
-  "funcinarios": [
-    
+  ],
+  "funcionarios": [
+    {
+      "nome": "Primeiro professor",
+      "dataNascimento": "26/01/2021",
+      "localNascimento": "",
+      "idade": "45",
+      "nacionalidade": "Brasileira",
+      "cpf": "546516516565",
+      "rg": "2562448",
+      "orgaoExpedidor": "SSP-DF",
+      "dataExpedicao": "01/01/2011",
+      "uf": "DF",
+      "email": "professor@email.com",
+      "telefone": "061 3025 4654",
+      "telefone2": "061 9 9999 9999",
+      "tipoSanguineo": "O -",
+      "sexo": "Masculino",
+      "estadoCivil": "Solteiro(a)",
+      "formacao": "Graduado em Tecnologia",
+      "cargo": "Professor(a)",
+      "cep": "7523122",
+      "logradouro": "condominio",
+      "numero": "56",
+      "complemento": "casa",
+      "bairro": "Asa Norte",
+      "estado": "DF",
+      "id": 1
+    }
   ]
 }
