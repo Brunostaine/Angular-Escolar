@@ -1,6 +1,6 @@
 export interface Funcionarios {
     id?: number
-    nome: string
+    name: string
     dataNascimento: string
     localNascimento: string
     idade: string

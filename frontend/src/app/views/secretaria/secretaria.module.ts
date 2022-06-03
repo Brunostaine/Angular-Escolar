@@ -18,10 +18,11 @@ import { CreateAlunosComponent } from './alunos/create-alunos/create-alunos.comp
 import { ListaAlunosComponent } from './alunos/lista-alunos/lista-alunos.component';
 import { ReadAlunoComponent } from './alunos/read-aluno/read-aluno.component';
 import { UpdateAlunosComponent } from './alunos/update-alunos/update-alunos.component';
+import { CreateFuncionariosComponent } from './funcionarios/create-funcionarios/create-funcionarios.component';
 import { FuncionariosComponent } from './funcionarios/funcionarios.component';
 import { SecretariaRoutingModule } from './secretaria-routing.module';
 import { SecretariaComponent } from './secretaria.component';
-import { CreateFuncionariosComponent } from './funcionarios/create-funcionarios/create-funcionarios.component';
+import { ListaFuncionariosComponent } from './funcionarios/lista-funcionarios/lista-funcionarios.component';
 
 
 
@@ -46,6 +47,8 @@ import { CreateFuncionariosComponent } from './funcionarios/create-funcionarios/
     ReadAlunoComponent,
     AlunoComponent,
     CreateFuncionariosComponent,
+    ListaFuncionariosComponent,
+    
     
     
   ],

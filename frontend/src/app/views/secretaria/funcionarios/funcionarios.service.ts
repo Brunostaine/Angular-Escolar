@@ -18,6 +18,14 @@ export class FuncionariosService {
     return this.http.post<Funcionarios>(this.urlFuncionarios, funcionario);
   }
 
+  read(): Observable<Funcionarios[]> {
+      return this.http.get<Funcionarios[]>(this.urlFuncionarios)
+  }
+  delete(id: any): Observable<Funcionarios> {
+    const url = `${this.urlFuncionarios}/${id}`;
+    return this.http.delete<Funcionarios>(url)
+  }
+
   showMessage(msg: string){
     this.snackBar.open(msg, '', {
       

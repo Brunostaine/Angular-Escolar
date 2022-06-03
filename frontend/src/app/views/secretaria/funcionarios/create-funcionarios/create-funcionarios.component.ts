@@ -18,7 +18,7 @@ export class CreateFuncionariosComponent implements OnInit {
 
   funcionario: Funcionarios = {
     
-    nome: '',
+    name: '',
     dataNascimento: '',
     localNascimento: '',
     idade: '',
@@ -51,7 +51,7 @@ export class CreateFuncionariosComponent implements OnInit {
   }
 
 save(){
-    if(this.funcionario.nome  !== ''){
+    if(this.funcionario.name  !== ''){
       this.funcionariosService.create(this.funcionario).subscribe((funcionario) => {
         this.funcionario = funcionario
         this.router.navigate(['/secretaria/funcionarios'])
