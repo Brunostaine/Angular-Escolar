@@ -22,6 +22,7 @@ import { SecretariaModule } from './views/secretaria/secretaria.module';
     FooterComponent,
     
     
+    
   ],
   imports: [
     BrowserModule,

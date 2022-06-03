@@ -7,6 +7,7 @@ import { ButtomComponent } from './../../components/botoes/buttom/buttom.compone
 import { CardIconeComponent } from './../../components/cards/card-icone/card-icone.component';
 import { CardMenuComponent } from './../../components/cards/card-menu/card-menu.component';
 import { DialogConfirmComponent } from './../../components/dialog-confirm/dialog-confirm.component';
+import { FuncionarioComponent } from './../../components/funcionario/funcionario.component';
 import { HeaderPagesComponent } from './../../components/header-pages/header-pages.component';
 import { IconeDeleteComponent } from './../../components/icones/icone-delete/icone-delete.component';
 import { IconeEditComponent } from './../../components/icones/icone-edit/icone-edit.component';
@@ -20,10 +21,11 @@ import { ReadAlunoComponent } from './alunos/read-aluno/read-aluno.component';
 import { UpdateAlunosComponent } from './alunos/update-alunos/update-alunos.component';
 import { CreateFuncionariosComponent } from './funcionarios/create-funcionarios/create-funcionarios.component';
 import { FuncionariosComponent } from './funcionarios/funcionarios.component';
+import { ListaFuncionariosComponent } from './funcionarios/lista-funcionarios/lista-funcionarios.component';
+import { ReadFuncionariosComponent } from './funcionarios/read-funcionarios/read-funcionarios.component';
+import { UpdateFuncionariosComponent } from './funcionarios/update-funcionarios/update-funcionarios.component';
 import { SecretariaRoutingModule } from './secretaria-routing.module';
 import { SecretariaComponent } from './secretaria.component';
-import { ListaFuncionariosComponent } from './funcionarios/lista-funcionarios/lista-funcionarios.component';
-import { UpdateFuncionariosComponent } from './funcionarios/update-funcionarios/update-funcionarios.component';
 
 
 
@@ -50,7 +52,8 @@ import { UpdateFuncionariosComponent } from './funcionarios/update-funcionarios/
     CreateFuncionariosComponent,
     ListaFuncionariosComponent,
     UpdateFuncionariosComponent,
-    
+    ReadFuncionariosComponent,
+    FuncionarioComponent,
     
     
   ],
@@ -72,7 +75,7 @@ import { UpdateFuncionariosComponent } from './funcionarios/update-funcionarios/
     ButtomComponent,
     DialogConfirmComponent,
     AlunoComponent,
-    
+    FuncionarioComponent,
     
   ]
 })
