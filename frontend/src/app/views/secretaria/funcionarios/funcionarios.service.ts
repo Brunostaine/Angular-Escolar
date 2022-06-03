@@ -21,6 +21,17 @@ export class FuncionariosService {
   read(): Observable<Funcionarios[]> {
       return this.http.get<Funcionarios[]>(this.urlFuncionarios)
   }
+
+  readById(id: any): Observable<Funcionarios> {
+    const url = ` ${this.urlFuncionarios}/${id}`;
+    return this.http.get<Funcionarios>(url);
+  }
+
+  update(funcionario: Funcionarios): Observable<Funcionarios> {
+    const url = `${this.urlFuncionarios}/${funcionario.id}`;
+    return this.http.put<Funcionarios>(url, funcionario);
+  }
+
   delete(id: any): Observable<Funcionarios> {
     const url = `${this.urlFuncionarios}/${id}`;
     return this.http.delete<Funcionarios>(url)

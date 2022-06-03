@@ -1,0 +1,31 @@
+.example-form {
+    min-width: 150px;
+    width: 100%;
+    
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+  }
+.example-full-width {
+min-width: 150px;
+width: 500px;
+margin-right: 16px;
+
+}
+
+.form-endereco{
+    min-width: 150px;
+    width: 80%;
+    
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.form-endereco-item{
+    min-width: 150px;
+    width: 300px;
+    margin-right: 16px;
+    
+}

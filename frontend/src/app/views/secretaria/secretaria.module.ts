@@ -23,6 +23,7 @@ import { FuncionariosComponent } from './funcionarios/funcionarios.component';
 import { SecretariaRoutingModule } from './secretaria-routing.module';
 import { SecretariaComponent } from './secretaria.component';
 import { ListaFuncionariosComponent } from './funcionarios/lista-funcionarios/lista-funcionarios.component';
+import { UpdateFuncionariosComponent } from './funcionarios/update-funcionarios/update-funcionarios.component';
 
 
 
@@ -48,6 +49,7 @@ import { ListaFuncionariosComponent } from './funcionarios/lista-funcionarios/li
     AlunoComponent,
     CreateFuncionariosComponent,
     ListaFuncionariosComponent,
+    UpdateFuncionariosComponent,
     
     
     
