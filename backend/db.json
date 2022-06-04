@@ -6,7 +6,8 @@
       "id": 1,
       "nome": "Marli da silva",
       "serie": "5ª série",
-      "nomeMae": "Marilene da silva"
+      "nomeMae": "Marilene da silva",
+      "nascionalidade": "brasileira"
     },
     {
       "nome": "Joaquina guimares",
@@ -135,8 +136,8 @@
       "id": 7
     },
     {
-      "nome": "Salete maria",
-      "turma": "",
+      "nome": "JUREMA",
+      "turma": "Inglês Avançado",
       "dataNascimento": "",
       "nomeMae": "",
       "nomePai": "",
@@ -145,14 +146,14 @@
       "email": "",
       "telefoneResponsavel": "",
       "telefoneResponsavel2": "",
-      "tipoSanguineo": "",
-      "serie": "4ª série",
+      "tipoSanguineo": "B -",
+      "serie": "3ª série",
       "cep": "",
       "logradouro": "",
       "numero": "",
       "complemento": "",
-      "bairro": "",
-      "estado": "",
+      "bairro": "Asa Norte",
+      "estado": "DF",
       "id": 8
     }
   ]
