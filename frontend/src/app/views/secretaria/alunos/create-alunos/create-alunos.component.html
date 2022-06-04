@@ -4,40 +4,108 @@
     <mat-card-subtitle>Dados pessoais</mat-card-subtitle>
         <form  class="example-form"> 
 
-            <mat-form-field class=" example-full-width" appearance="fill" >
+            <mat-form-field class="example-full-width" appearance="fill" >
                     <mat-label >Nome Completo do Aluno</mat-label>
                     <input  matInput placeholder="Ex. Aluno da Silva" class="input" 
                      required [(ngModel)]="aluno.nome"  name="nome">
             </mat-form-field>
 
-            <mat-form-field class=" example-full-width" appearance="fill">
+            <mat-form-field class="example-full-width" appearance="fill">
                 <mat-label>Data de Nascimento</mat-label>
                 <input matInput placeholder="Ex. xx/xx/xxxx" 
                 required [(ngModel)]="aluno.dataNascimento" name="dataNascimento">
             </mat-form-field>
-            <mat-form-field class=" example-full-width" appearance="fill">
+            <mat-form-field class="example-full-width" appearance="fill">
                 <mat-label>Nome Completo da Mãe</mat-label>
                 <input matInput placeholder="Ex. Mãe da Silva" required
                 [(ngModel)]="aluno.nomeMae" name="nomeMae">
             </mat-form-field>
 
-            <mat-form-field class=" example-full-width" appearance="fill">
+            <mat-form-field class="example-full-width" appearance="fill">
                 <mat-label>Nome Completo do Pai</mat-label>
                 <input matInput placeholder="Ex. Pai da Silva" 
                 [(ngModel)]="aluno.nomePai" name="nomePai">
+            </mat-form-field>
+
+            <mat-form-field appearance="fill" class="example-full-width">
+                <mat-label>Estado Civil</mat-label>
+                    <select matNativeControl required
+                    [(ngModel)]="aluno.estadoCivil" name="estadoCivil">
+                        <option disabled selected label="Selecione uma opção"></option>
+                        <option value="Solteiro(a)">Solteiro(a)</option>
+                        <option value="Casado(a)">Casado(a)</option>
+                        <option value="uniaoestavel">Uniao estavel</option>
+                        <option value="Divorciado(a)">Divorciado(a)</option>
+                    </select>
+            </mat-form-field>
+
+            <mat-form-field appearance="fill" class="example-full-width">
+                <mat-label>Raça Cor</mat-label>
+                    <select matNativeControl required
+                    [(ngModel)]="aluno.cor" name="cor">
+                        <option disabled selected label="Selecione uma opção"></option>
+                        <option value="Branco">Branco</option>
+                        <option value="Pardo">Pardo</option>
+                        <option value="Negro">Negro</option>
+                    </select>
+            </mat-form-field>
+
+            <mat-form-field appearance="fill" class="example-full-width">
+                <mat-label>Sexo</mat-label>
+                    <select matNativeControl required
+                    [(ngModel)]="aluno.sexo" name="sexo">
+                        <option disabled selected label="Selecione uma opção"></option>
+                        <option value="Masculino">Masculino</option>
+                        <option value="Feminino">Feminino</option>
+
+                    </select>
             </mat-form-field>
 
             
             <mat-form-field class=" example-full-width" appearance="fill">
                 <mat-label>Nacionalidade</mat-label>
                 <input matInput placeholder="Ex. Onde nasceu" required
-                [(ngModel)]="aluno.nascionalidade" name="nascionalidade">
+                [(ngModel)]="aluno.nacionalidade" name="nacionalidade">
             </mat-form-field>
 
             <mat-form-field class=" example-full-width" appearance="fill">
                 <mat-label>CPF</mat-label>
                 <input matInput placeholder="Ex. 000.000.000-00" 
                 [(ngModel)]="aluno.cpf" name="cpf">
+            </mat-form-field>
+
+            <mat-form-field class=" example-full-width" appearance="fill">
+                <mat-label>RG</mat-label>
+                <input matInput placeholder="Ex. 0.000.000" 
+                [(ngModel)]="aluno.rg" name="rg">
+            </mat-form-field>
+
+            <mat-form-field class=" example-full-width" appearance="fill">
+                <mat-label>Orgão Expedidor</mat-label>
+                <input matInput placeholder="Ex. orgão-estado" 
+                [(ngModel)]="aluno.orgaoExpedidor" name="orgaoExpedidor">
+            </mat-form-field>
+
+            <mat-form-field class=" example-full-width" appearance="fill">
+                <mat-label>Data de expedição</mat-label>
+                <input matInput placeholder="Ex. 01/01/1123" 
+                [(ngModel)]="aluno.dataExpedicao" name="dataExpedicao">
+            </mat-form-field>
+
+            <mat-form-field class=" example-full-width" appearance="fill">
+                <mat-label>UF</mat-label>
+                <input matInput placeholder="Ex. estado" 
+                [(ngModel)]="aluno.uf" name="uf">
+            </mat-form-field>
+
+            <mat-form-field appearance="fill" class="example-full-width">
+                <mat-label>Possui Necessidades Especiais</mat-label>
+                    <select matNativeControl required
+                    [(ngModel)]="aluno.necessidadesEspeciais" name="necessidadesEspeciais">
+                        <option disabled selected label="Selecione uma opção"></option>
+                        <option value="Sim">Sim</option>
+                        <option value="Não">Não</option>
+                    </select>
             </mat-form-field>
 
             <mat-form-field class=" example-full-width" appearance="fill">
@@ -121,25 +189,25 @@
         <form  class="form-endereco">
             <mat-form-field class="form-endereco-item" appearance="fill">
                 <mat-label>CEP</mat-label>
-                <input matInput placeholder="Ex. Aluno da Silva" class="input" required
+                <input matInput placeholder="Ex. 00.000-00" class="input" required
                 [(ngModel)]="aluno.cep" name="cep">
             </mat-form-field>
 
             <mat-form-field class="form-endereco-item" appearance="fill">
                 <mat-label>Logradouro</mat-label>
-                <input matInput placeholder="Ex. Aluno da Silva" class="input" required
+                <input matInput placeholder="Ex. endereço completo" class="input" required
                 [(ngModel)]="aluno.logradouro" name="logradouro">
             </mat-form-field>
 
             <mat-form-field class="form-endereco-item" appearance="fill">
                 <mat-label>Número</mat-label>
-                <input matInput placeholder="Ex. Aluno da Silva" class="input" required
+                <input matInput placeholder="Ex. nº" class="input" required
                 [(ngModel)]="aluno.numero" name="numero">
             </mat-form-field>
 
             <mat-form-field class="form-endereco-item" appearance="fill">
                 <mat-label>Complemento</mat-label>
-                <input matInput placeholder="Ex. Aluno da Silva" class="input"
+                <input matInput placeholder="Ex. Casa, apartamento" class="input"
                 [(ngModel)]="aluno.complemento" name="complemento">
             </mat-form-field>
 

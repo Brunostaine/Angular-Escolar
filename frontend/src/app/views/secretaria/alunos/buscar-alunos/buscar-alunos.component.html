@@ -1,79 +1,77 @@
 <div class="mat-elevation-z8">
 
-<mat-toolbar class="header" >
-    <span>Buscar Aluno</span>
-</mat-toolbar>
+        <mat-toolbar class="header" >
+            <span>Buscar Aluno</span>
+        </mat-toolbar>
 
 
-<mat-form-field class="form example-form-field" appearance="fill">
-    <mat-label>Nome</mat-label>
-    <input matInput type="text" >
-</mat-form-field>
+                <mat-form-field class="form example-form-field" appearance="fill">
+                    <mat-label>Nome</mat-label>
+                    <input matInput type="text" >
+                </mat-form-field>
 
-<mat-form-field class="form example-form-field" appearance="fill">
-    <mat-label>Nº Matricula</mat-label>
-    <input matInput type="text" >
-</mat-form-field>
+                <mat-form-field class="form example-form-field" appearance="fill">
+                    <mat-label>Nº Matricula</mat-label>
+                    <input matInput type="text" >
+                </mat-form-field>
 
-<mat-form-field class="form" appearance="fill">
-    <mat-label>Unidade</mat-label>
-    <select matNativeControl required>
-        <option disabled selected >Selecione</option>  
-        <option value="Sobradinho">Sobradinho</option>
-        <option value="Asa norte">Asa norte</option>
-        <option value="Asa Sul">Asa Sul</option>
-        <option value="Taguatinga">Taguatinga</option>
-    </select>
-</mat-form-field>
+                <mat-form-field class="form" appearance="fill">
+                    <mat-label>Unidade</mat-label>
+                    <select matNativeControl required>
+                        <option disabled selected >Selecione</option>  
+                        <option value="Sobradinho">Sobradinho</option>
+                        <option value="Asa norte">Asa norte</option>
+                        <option value="Asa Sul">Asa Sul</option>
+                        <option value="Taguatinga">Taguatinga</option>
+                    </select>
+                </mat-form-field>
 
-<mat-form-field class="form" appearance="fill">
-    <mat-label>Turma</mat-label>
-    <select matNativeControl required>
-        <option disabled selected >Selecione</option>
-        <option value="1A">1A</option>
-        <option value="2B">2B</option>
-        <option value="3C">3C</option>
-        <option value="4A">4A</option>
-    </select>
-</mat-form-field>
+                <mat-form-field class="form" appearance="fill">
+                    <mat-label>Turma</mat-label>
+                    <select matNativeControl required>
+                        <option disabled selected >Selecione</option>
+                        <option value="1A">1A</option>
+                        <option value="2B">2B</option>
+                        <option value="3C">3C</option>
+                        <option value="4A">4A</option>
+                    </select>
+                </mat-form-field>
 
-<mat-form-field class="form" appearance="fill">
-    <mat-label>Curso</mat-label>
-    <select matNativeControl required>
-        <option disabled selected >Selecione</option>
-        <option value="Inglês">Inglês</option>
-        <option value="Espanhol">Espanhol</option>
-        <option value="Francês">Francês</option>
-        <option value="Japonês">Japonês</option>
-    </select>
-</mat-form-field>
+                <mat-form-field class="form" appearance="fill">
+                    <mat-label>Curso</mat-label>
+                    <select matNativeControl required>
+                        <option disabled selected >Selecione</option>
+                        <option value="Inglês">Inglês</option>
+                        <option value="Espanhol">Espanhol</option>
+                        <option value="Francês">Francês</option>
+                        <option value="Japonês">Japonês</option>
+                    </select>
+                </mat-form-field>
 
 
-<mat-form-field class="form" appearance="fill">
-    <mat-label>Periodo Letivo</mat-label>
-    <select matNativeControl required>
-        <option disabled selected >Selecione</option>
-        <option value="2022">2022</option>
-        <option value="2021">2021</option>
-        <option value="2020">2020</option>
-        <option value="2019">2019</option>
-    </select>
-</mat-form-field>
+                <mat-form-field class="form" appearance="fill">
+                    <mat-label>Periodo Letivo</mat-label>
+                    <select matNativeControl required>
+                        <option disabled selected >Selecione</option>
+                        <option value="2022">2022</option>
+                        <option value="2021">2021</option>
+                        <option value="2020">2020</option>
+                        <option value="2019">2019</option>
+                    </select>
+                </mat-form-field>
 
-<mat-form-field class="form example-form-field" appearance="fill">
-    <mat-label>CPF</mat-label>
-    <input matInput type="text" >
-</mat-form-field>
+                <mat-form-field class="form example-form-field" appearance="fill">
+                    <mat-label>CPF</mat-label>
+                    <input matInput type="text" >
+                </mat-form-field>
 
-<mat-form-field class="form example-form-field" appearance="fill">
-    <mat-label>Email</mat-label>
-    <input matInput type="text" >
-</mat-form-field>
+                <mat-form-field class="form example-form-field" appearance="fill">
+                    <mat-label>Email</mat-label>
+                    <input matInput type="text" >
+                </mat-form-field>
 
-<div class="buttom">
-    <app-buttom [nome]="buscar" [background]="background"></app-buttom>
-    <app-buttom [nome]="limpar" [background]="backgroundLimpar"></app-buttom>
-
-</div>
-
+                <div class="buttom">
+                    <app-buttom [nome]="buscar" [background]="background" (click)="onBuscar()"></app-buttom>
+                    <app-buttom [nome]="limpar" [background]="backgroundLimpar" (click)="limparPesquisa()"></app-buttom>
+                </div>
 </div>

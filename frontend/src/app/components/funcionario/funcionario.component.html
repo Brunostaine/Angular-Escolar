@@ -1,0 +1,126 @@
+<mat-card class="card">
+    <img class="img" src="\assets\img\perfil.png" alt="">
+
+    <div class="card-input">
+            <mat-card class="card-body">
+                <div class="card-item">
+                    <mat-card-subtitle>Id do Professor</mat-card-subtitle>
+                    <mat-card-content>{{ funcionario.id }}</mat-card-content>
+                </div>
+                <div class="card-item">
+                    <mat-card-subtitle>Nome</mat-card-subtitle>
+                    <mat-card-content>{{ funcionario.name }}</mat-card-content>
+                </div>
+                <div class="card-item">
+                    <mat-card-subtitle>Data de Nascimento</mat-card-subtitle>
+                    <mat-card-content>{{ funcionario.dataNascimento }}</mat-card-content>
+                </div>
+                <div class="card-item">
+                    <mat-card-subtitle>Local de Nascimento</mat-card-subtitle>
+                    <mat-card-content>{{ funcionario.localNascimento }}</mat-card-content>
+                </div>
+                <div class="card-item">
+                    <mat-card-subtitle>Idade</mat-card-subtitle>
+                    <mat-card-content>{{ funcionario.idade }}</mat-card-content>
+                </div>
+                <div class="card-item">
+                    <mat-card-subtitle>Nacionalidade</mat-card-subtitle>
+                    <mat-card-content>{{ funcionario.nacionalidade }}</mat-card-content>
+                </div>
+                
+                <div class="card-item">
+                    <mat-card-subtitle>CPF</mat-card-subtitle>
+                    <mat-card-content>{{ funcionario.cpf }}</mat-card-content>
+                </div>
+                <div class="card-item">
+                    <mat-card-subtitle>RG</mat-card-subtitle>
+                    <mat-card-content>{{ funcionario.rg}}</mat-card-content>
+                </div>
+                <div class="card-item">
+                    <mat-card-subtitle>Orgão Expedidor</mat-card-subtitle>
+                    <mat-card-content>{{ funcionario.orgaoExpedidor}}</mat-card-content>
+                </div>
+                <div class="card-item">
+                    <mat-card-subtitle>Data de Expedição</mat-card-subtitle>
+                    <mat-card-content>{{ funcionario.dataExpedicao}}</mat-card-content>
+                </div>
+                <div class="card-item">
+                    <mat-card-subtitle>UF</mat-card-subtitle>
+                    <mat-card-content>{{ funcionario.uf}}</mat-card-content>
+                </div>
+                <div class="card-item">
+                    <mat-card-subtitle>Email</mat-card-subtitle>
+                    <mat-card-content>{{ funcionario.email}}</mat-card-content>
+                </div>
+                <div class="card-item">
+                    <mat-card-subtitle>Telefone</mat-card-subtitle>
+                    <mat-card-content>{{ funcionario.telefone}}</mat-card-content>
+                </div>
+                <div class="card-item">
+                    <mat-card-subtitle>Telefone2</mat-card-subtitle>
+                    <mat-card-content>{{ funcionario.telefone2}}</mat-card-content>
+                </div>
+                <div class="card-item">
+                    <mat-card-subtitle>Tipo Sanguineo</mat-card-subtitle>
+                    <mat-card-content>{{ funcionario.tipoSanguineo}}</mat-card-content>
+                </div>
+                <div class="card-item">
+                    <mat-card-subtitle>Sexo</mat-card-subtitle>
+                    <mat-card-content>{{ funcionario.sexo }}</mat-card-content>
+                </div>
+                <div class="card-item">
+                    <mat-card-subtitle>Estado Civil</mat-card-subtitle>
+                    <mat-card-content>{{ funcionario.estadoCivil }}</mat-card-content>
+                </div>
+
+            </mat-card>
+    </div> 
+
+</mat-card>
+
+
+<mat-card class="card-body">
+    <mat-card-title class="filiacao-title">Dados da escola</mat-card-title>
+            <div class="card-body">
+                <div class="card-item">
+                    <mat-card-subtitle>Formação</mat-card-subtitle>
+                    <mat-card-content> {{ funcionario.formacao}}</mat-card-content>
+                </div>
+                
+                <div class="card-item">
+                    <mat-card-subtitle>Cargo</mat-card-subtitle>
+                    <mat-card-content>{{ funcionario.cargo}}</mat-card-content>
+                </div>
+            </div>
+</mat-card>
+
+<mat-card>
+    <mat-card-title class="residencia-title">Residência</mat-card-title>
+            <div class="residencia-info">
+                <div>
+                    <mat-card-subtitle>CEP</mat-card-subtitle>
+                    <mat-card-content>{{ funcionario.cep }}</mat-card-content>
+                </div>
+                <div>
+                    <mat-card-subtitle>Logradouro</mat-card-subtitle>
+                    <mat-card-content>{{ funcionario.logradouro }}</mat-card-content>
+                </div>
+                <div>
+                    <mat-card-subtitle>Número</mat-card-subtitle>
+                    <mat-card-content>{{ funcionario.numero }}</mat-card-content>
+                </div>
+                <div>
+                    <mat-card-subtitle>Complemento</mat-card-subtitle>
+                    <mat-card-content>{{ funcionario.complemento }}</mat-card-content>
+                </div>
+                <div>
+                    <mat-card-subtitle>Bairro</mat-card-subtitle>
+                    <mat-card-content>{{ funcionario.bairro }}</mat-card-content>
+                </div>
+                <div>
+                    <mat-card-subtitle>Estado</mat-card-subtitle>
+                    <mat-card-content>{{ funcionario.estado }}</mat-card-content>
+                </div>
+            </div>
+</mat-card>
+

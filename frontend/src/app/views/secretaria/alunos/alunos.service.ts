@@ -16,7 +16,9 @@ export class AlunosService {
 
   constructor(private http: HttpClient, private snackBar: MatSnackBar) { }
 
-  
+  search(): Observable<Alunos>{
+    return this.http.get<Alunos>(this.urlAlunos)
+  }
 
   create(aluno: Alunos): Observable<Alunos> {
     return this.http.post<Alunos>(this.urlAlunos, aluno);

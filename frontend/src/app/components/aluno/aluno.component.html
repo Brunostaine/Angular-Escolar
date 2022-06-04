@@ -1,0 +1,111 @@
+<mat-card class="card">
+        <img class="img" src="\assets\img\perfil.png" alt="">
+
+        <div class="card-input">
+                <mat-card class="card-body">
+                    <div class="card-item">
+                        <mat-card-subtitle>Matrícula</mat-card-subtitle>
+                        <mat-card-content>{{ aluno.id }}</mat-card-content>
+                    </div>
+                    <div class="card-item">
+                        <mat-card-subtitle>Nome</mat-card-subtitle>
+                        <mat-card-content>{{ aluno.nome }}</mat-card-content>
+                    </div>
+                    <div class="card-item">
+                        <mat-card-subtitle>Sexo</mat-card-subtitle>
+                        <mat-card-content>{{ aluno.sexo }}</mat-card-content>
+                    </div>
+                    <div class="card-item">
+                        <mat-card-subtitle>Estado Civil</mat-card-subtitle>
+                        <mat-card-content>{{ aluno.estadoCivil }}</mat-card-content>
+                    </div>
+                    <div class="card-item">
+                        <mat-card-subtitle>Data de Nascimento</mat-card-subtitle>
+                        <mat-card-content>{{ aluno.dataNascimento }}</mat-card-content>
+                    </div>
+                    <div class="card-item">
+                        <mat-card-subtitle>Local de Nascimento</mat-card-subtitle>
+                        <mat-card-content>{{ aluno.localNascimento }}</mat-card-content>
+                    </div>
+                    <div class="card-item">
+                        <mat-card-subtitle>Idade</mat-card-subtitle>
+                        <mat-card-content>{{ aluno.idade }}</mat-card-content>
+                    </div>
+                    <div class="card-item">
+                        <mat-card-subtitle>Nacionalidade</mat-card-subtitle>
+                        <mat-card-content>{{ aluno.nacionalidade }}</mat-card-content>
+                    </div>
+                    <div class="card-item">
+                        <mat-card-subtitle>Necessidades Especiais</mat-card-subtitle>
+                        <mat-card-content>{{ aluno.necessidadesEspeciais }}</mat-card-content>
+                    </div>
+                    <div class="card-item">
+                        <mat-card-subtitle>CPF</mat-card-subtitle>
+                        <mat-card-content>{{ aluno.cpf }}</mat-card-content>
+                    </div>
+                    <div class="card-item">
+                        <mat-card-subtitle>RG</mat-card-subtitle>
+                        <mat-card-content>{{ aluno.rg}}</mat-card-content>
+                    </div>
+                    <div class="card-item">
+                        <mat-card-subtitle>Orgão Expedidor</mat-card-subtitle>
+                        <mat-card-content>{{ aluno.orgaoExpedidor}}</mat-card-content>
+                    </div>
+                    <div class="card-item">
+                        <mat-card-subtitle>Data de Expedição</mat-card-subtitle>
+                        <mat-card-content>{{ aluno.dataExpedicao}}</mat-card-content>
+                    </div>
+                    <div class="card-item">
+                        <mat-card-subtitle>UF</mat-card-subtitle>
+                        <mat-card-content>{{ aluno.uf}}</mat-card-content>
+                    </div>
+                </mat-card>
+        </div> 
+
+</mat-card>
+
+
+<mat-card class="card-body">
+        <mat-card-title class="filiacao-title">Filiação</mat-card-title>
+                <div class="card-body">
+                    <div class="card-item">
+                        <mat-card-subtitle>Nome da Mãe</mat-card-subtitle>
+                        <mat-card-content> {{ aluno.nomeMae}}</mat-card-content>
+                    </div>
+                    
+                    <div class="card-item">
+                        <mat-card-subtitle>Nome do Pai</mat-card-subtitle>
+                        <mat-card-content>{{ aluno.nomePai}}</mat-card-content>
+                    </div>
+                </div>
+</mat-card>
+
+<mat-card>
+        <mat-card-title class="residencia-title">Residência</mat-card-title>
+                <div class="residencia-info">
+                    <div>
+                        <mat-card-subtitle>CEP</mat-card-subtitle>
+                        <mat-card-content>{{ aluno.cep }}</mat-card-content>
+                    </div>
+                    <div>
+                        <mat-card-subtitle>Logradouro</mat-card-subtitle>
+                        <mat-card-content>{{ aluno.logradouro }}</mat-card-content>
+                    </div>
+                    <div>
+                        <mat-card-subtitle>Número</mat-card-subtitle>
+                        <mat-card-content>{{ aluno.numero }}</mat-card-content>
+                    </div>
+                    <div>
+                        <mat-card-subtitle>Complemento</mat-card-subtitle>
+                        <mat-card-content>{{ aluno.complemento }}</mat-card-content>
+                    </div>
+                    <div>
+                        <mat-card-subtitle>Bairro</mat-card-subtitle>
+                        <mat-card-content>{{ aluno.bairro }}</mat-card-content>
+                    </div>
+                    <div>
+                        <mat-card-subtitle>Estado</mat-card-subtitle>
+                        <mat-card-content>{{ aluno.estado }}</mat-card-content>
+                    </div>
+                </div>
+</mat-card>

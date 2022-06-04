@@ -1,4 +1,7 @@
 import { Component, OnInit } from '@angular/core';
+import { FormControl } from '@angular/forms';
+
+import { AlunosService } from './../alunos.service';
 
 @Component({
   selector: 'app-buscar-alunos',
@@ -13,9 +16,19 @@ export class BuscarAlunosComponent implements OnInit {
   limpar: string = 'Limpar'
   backgroundLimpar: string = 'limpar'
 
-  constructor() { }
+  queryField = new FormControl
+
+  constructor(private AlunosService: AlunosService) { }
 
   ngOnInit(): void {
+  }
+
+  onBuscar(){
+    this.queryField.value
+  }
+
+  limparPesquisa(){
+    this.queryField.reset()
   }
 
 }

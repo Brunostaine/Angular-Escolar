@@ -19,8 +19,6 @@ displayedColumns: string[] = ['id', 'name', 'serie', 'acao'];
 
 constructor( private alunosService: AlunosService, private matDialog: MatDialog, private router: Router) { }
 
-
-
 ngOnInit(): void {
   this.alunosService.read().subscribe((alunos) => {
     this.alunos = alunos;
@@ -47,10 +45,7 @@ delete(id: any) {
         )
         
       }
-      
-      
 
-    
   })
   
   // this.alunosService.showMessage('Aluno deletado com sucesso!')

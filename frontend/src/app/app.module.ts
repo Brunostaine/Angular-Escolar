@@ -12,6 +12,7 @@ import { AngularMaterialModule } from './shared/angular-material/angular-materia
 import { HomeComponent } from './views/home/home.component';
 import { SecretariaModule } from './views/secretaria/secretaria.module';
 
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -19,6 +20,8 @@ import { SecretariaModule } from './views/secretaria/secretaria.module';
     NavComponent,
     HomeComponent,
     FooterComponent,
+    
+    
     
   ],
   imports: [
