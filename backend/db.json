@@ -7,9 +7,9 @@
       "nome": "Marli da silva",
       "serie": "5ª série",
       "nomeMae": "Marilene da silva",
-<<<<<<< HEAD
-      "nascionalidade": "brasileira"
-=======
+
+      "nascionalidade": "brasileira",
+
       "dataNascimento": "02/08/1988",
       "nomePai": "João da silva",
       "cpf": "081.082.093-69",
@@ -31,7 +31,7 @@
       "dataExpedicao": "01/05/1991",
       "uf": "DF",
       "necessidadesEspeciais": "Não"
->>>>>>> 2009b14b22e5dd90852cdbd6b0aaef0d7d008991
+
     },
     {
       "nome": "Joaquina guimares",
