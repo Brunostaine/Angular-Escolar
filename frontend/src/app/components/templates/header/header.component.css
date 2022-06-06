@@ -34,3 +34,6 @@ i {
     text-align: center;
     text-transform: uppercase;
 }
+.logo {
+    max-height: 64px;
+}

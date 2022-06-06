@@ -16,3 +16,8 @@
 .logo {
     max-height: 64px;
 }
+
+mat-drawer-container{
+    
+    height: 85%;
+}
