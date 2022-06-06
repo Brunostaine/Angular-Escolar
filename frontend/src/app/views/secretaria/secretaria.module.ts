@@ -19,16 +19,11 @@ import { CreateAlunosComponent } from './alunos/create-alunos/create-alunos.comp
 import { ListaAlunosComponent } from './alunos/lista-alunos/lista-alunos.component';
 import { ReadAlunoComponent } from './alunos/read-aluno/read-aluno.component';
 import { UpdateAlunosComponent } from './alunos/update-alunos/update-alunos.component';
-import { CreateFuncionariosComponent } from './funcionarios/create-funcionarios/create-funcionarios.component';
-import { FuncionariosComponent } from './funcionarios/funcionarios.component';
-import { ListaFuncionariosComponent } from './funcionarios/lista-funcionarios/lista-funcionarios.component';
-import { ReadFuncionariosComponent } from './funcionarios/read-funcionarios/read-funcionarios.component';
-import { UpdateFuncionariosComponent } from './funcionarios/update-funcionarios/update-funcionarios.component';
+import { MatriculaComponent } from './matricula/matricula.component';
+import { PeriodoLetivoComponent } from './periodo-letivo/periodo-letivo.component';
 import { SecretariaRoutingModule } from './secretaria-routing.module';
 import { SecretariaComponent } from './secretaria.component';
 import { TurmasComponent } from './turmas/turmas.component';
-import { MatriculaComponent } from './matricula/matricula.component';
-import { PeriodoLetivoComponent } from './periodo-letivo/periodo-letivo.component';
 
 
 
@@ -39,7 +34,7 @@ import { PeriodoLetivoComponent } from './periodo-letivo/periodo-letivo.componen
     CardMenuComponent,
     HeaderPagesComponent,
     AlunosComponent,
-    FuncionariosComponent,
+    
     CardIconeComponent,
     BuscarAlunosComponent,
     ListaAlunosComponent,
@@ -52,10 +47,7 @@ import { PeriodoLetivoComponent } from './periodo-letivo/periodo-letivo.componen
     DialogConfirmComponent,
     ReadAlunoComponent,
     AlunoComponent,
-    CreateFuncionariosComponent,
-    ListaFuncionariosComponent,
-    UpdateFuncionariosComponent,
-    ReadFuncionariosComponent,
+    
     FuncionarioComponent,
     TurmasComponent,
     MatriculaComponent,

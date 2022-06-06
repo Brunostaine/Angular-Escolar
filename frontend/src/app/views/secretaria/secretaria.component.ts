@@ -13,9 +13,7 @@ export class SecretariaComponent implements OnInit {
   linkAlunos: string = '/alunos'
   imgAlunos: string = '/assets/img/alunos.jpg'
 
-  linkFuncionarios: string = '/funcionarios'
-  funcionarios: string = 'Funcionários'
-  imgFuncinarios: string = '/assets/img/funcionarios.png'
+  
 
   
 
