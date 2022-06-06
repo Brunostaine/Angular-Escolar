@@ -26,3 +26,11 @@ i {
     padding-right: 10px;
     color: #f0f8ff;
 }
+
+
+
+.title {
+    color: aliceblue;
+    text-align: center;
+    text-transform: uppercase;
+}

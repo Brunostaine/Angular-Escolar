@@ -12,6 +12,7 @@ import { HeaderPagesComponent } from './../../components/header-pages/header-pag
 import { IconeDeleteComponent } from './../../components/icones/icone-delete/icone-delete.component';
 import { IconeEditComponent } from './../../components/icones/icone-edit/icone-edit.component';
 import { IconeVisualizarComponent } from './../../components/icones/icone-visualizar/icone-visualizar.component';
+import { HeaderComponent } from './../../components/templates/header/header.component';
 import { AngularMaterialModule } from './../../shared/angular-material/angular-material.module';
 import { AlunosComponent } from './alunos/alunos.component';
 import { BuscarAlunosComponent } from './alunos/buscar-alunos/buscar-alunos.component';
@@ -52,6 +53,7 @@ import { TurmasComponent } from './turmas/turmas.component';
     TurmasComponent,
     MatriculaComponent,
     PeriodoLetivoComponent,
+    HeaderComponent
     
     
   ],
@@ -74,6 +76,7 @@ import { TurmasComponent } from './turmas/turmas.component';
     DialogConfirmComponent,
     AlunoComponent,
     FuncionarioComponent,
+    HeaderComponent
     
   ]
 })

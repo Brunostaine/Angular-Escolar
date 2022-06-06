@@ -6,6 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./rh.component.css']
 })
 export class RhComponent implements OnInit {
+    nameHeader: string = 'Recursos Humanos'
 
   constructor() { }
 

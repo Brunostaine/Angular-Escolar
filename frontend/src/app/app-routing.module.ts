@@ -1,4 +1,4 @@
-import { RhComponent } from './views/recursos-humanos/rh/rh.component';
+import { RhComponent } from './views/recursos-humanos/rh.component';
 import { RegimentoEscolarComponent } from './views/regimento-escolar/regimento-escolar.component';
 import { CalendarioEscolarComponent } from './views/calendario-escolar/calendario-escolar.component';
 import { NgModule } from '@angular/core';
