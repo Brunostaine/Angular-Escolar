@@ -7,7 +7,6 @@ import { Component, OnInit } from '@angular/core';
 })
 export class SecretariaComponent implements OnInit {
   // INPUTS
-    nameHeader: string = 'Secretaria'
 
     alunos: string = 'Alunos'
     linkAlunos: string = '/alunos'
