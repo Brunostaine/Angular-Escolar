@@ -7,15 +7,23 @@ import { Component, OnInit } from '@angular/core';
 })
 export class SecretariaComponent implements OnInit {
   // INPUTS
-  nameHeader: string = 'Secretaria'
+    nameHeader: string = 'Secretaria'
 
-  alunos: string = 'Alunos'
-  linkAlunos: string = '/alunos'
-  imgAlunos: string = '/assets/img/alunos.jpg'
+    alunos: string = 'Alunos'
+    linkAlunos: string = '/alunos'
+    imgAlunos: string = '/assets/img/alunos.jpg'
 
-  
+    turmas: string = 'Turmas'
+    linkTurmas: string = '/turmas'
+    imgTurmas: string = '/assets/img/alunos.jpg'
 
-  
+    matricula: string = 'Matricula'
+    linkMatricula: string = '/matricula'
+    imgMatricula: string = '/assets/img/alunos.jpg'
+
+    periodo: string = 'Período Letivo'
+    linkPeriodo: string = '/periodo'
+    imgPeriodo: string = '/assets/img/alunos.jpg'
 
 
 
