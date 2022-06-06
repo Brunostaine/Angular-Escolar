@@ -1,3 +1,4 @@
+import { RecursosHumanosModule } from './views/recursos-humanos/recursos-humanos.module';
 import { HttpClientModule } from '@angular/common/http';
 import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
@@ -20,12 +21,7 @@ import { SecretariaModule } from './views/secretaria/secretaria.module';
     NavComponent,
     HomeComponent,
     FooterComponent,
-    
-    
-    
-    
-    
-    
+
   ],
   imports: [
     BrowserModule,
@@ -33,6 +29,7 @@ import { SecretariaModule } from './views/secretaria/secretaria.module';
     HttpClientModule,
     FormsModule,
     SecretariaModule,
+    RecursosHumanosModule,
     
     AngularMaterialModule,
   ],
