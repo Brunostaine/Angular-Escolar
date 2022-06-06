@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { FormControl } from '@angular/forms';
 
-import { AlunosService } from './../alunos.service';
+import { AlunosService } from '../../../../services/alunos.service';
 
 @Component({
   selector: 'app-buscar-alunos',

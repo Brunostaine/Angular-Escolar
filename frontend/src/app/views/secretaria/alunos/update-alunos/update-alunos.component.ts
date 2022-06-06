@@ -1,5 +1,5 @@
-import { AlunosService } from './../alunos.service';
-import { Alunos } from './../alunos-model';
+import { AlunosService } from '../../../../services/alunos.service';
+import { Alunos } from '../../../../models/alunos-model';
 import { Component, OnInit, Input } from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
 import { FormControl, NgControlStatus } from '@angular/forms';

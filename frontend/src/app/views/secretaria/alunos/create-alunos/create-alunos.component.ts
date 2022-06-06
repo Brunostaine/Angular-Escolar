@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
-import { Alunos } from '../alunos-model';
-import { AlunosService } from '../alunos.service';
+import { Alunos } from '../../../../models/alunos-model';
+import { AlunosService } from '../../../../services/alunos.service';
 
 @Component({
   selector: 'app-create-alunos',

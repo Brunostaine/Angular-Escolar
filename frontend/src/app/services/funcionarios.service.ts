@@ -3,7 +3,7 @@ import { Observable } from 'rxjs';
 import { Injectable } from '@angular/core';
 import { MatSnackBar } from '@angular/material/snack-bar';
 
-import { Funcionarios } from './funcionarios-model';
+import { Funcionarios } from '../models/funcionarios-model';
 
 @Injectable({
   providedIn: 'root'

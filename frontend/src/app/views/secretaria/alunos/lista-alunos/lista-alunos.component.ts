@@ -3,8 +3,8 @@ import { MatDialog } from '@angular/material/dialog';
 import { Router } from '@angular/router';
 
 import { DialogConfirmComponent } from './../../../../components/dialog-confirm/dialog-confirm.component';
-import { Alunos } from './../alunos-model';
-import { AlunosService } from './../alunos.service';
+import { Alunos } from '../../../../models/alunos-model';
+import { AlunosService } from '../../../../services/alunos.service';
 
 @Component({
   selector: 'app-lista-alunos',

@@ -1,6 +1,6 @@
 import { MatDialog } from '@angular/material/dialog';
-import { Funcionarios } from './../funcionarios-model';
-import { FuncionariosService } from './../funcionarios.service';
+import { Funcionarios } from '../../../../models/funcionarios-model';
+import { FuncionariosService } from '../../../../services/funcionarios.service';
 import { Component, OnInit } from '@angular/core';
 import { delay } from 'rxjs';
 

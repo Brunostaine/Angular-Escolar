@@ -1,6 +1,6 @@
 import { ActivatedRoute, Router } from '@angular/router';
-import { FuncionariosService } from './../funcionarios.service';
-import { Funcionarios } from './../funcionarios-model';
+import { FuncionariosService } from '../../../../services/funcionarios.service';
+import { Funcionarios } from '../../../../models/funcionarios-model';
 import { Component, OnInit } from '@angular/core';
 
 @Component({

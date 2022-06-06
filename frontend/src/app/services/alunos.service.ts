@@ -4,7 +4,7 @@ import { Injectable } from '@angular/core';
 import { MatSnackBar } from '@angular/material/snack-bar';
 import { Observable } from 'rxjs';
 
-import { Alunos } from './alunos-model';
+import { Alunos } from '../models/alunos-model';
 
 
 @Injectable({

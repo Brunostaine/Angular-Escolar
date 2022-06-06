@@ -1,6 +1,6 @@
-import { Alunos } from './../../views/secretaria/alunos/alunos-model';
+import { Alunos } from '../../models/alunos-model';
 import { ActivatedRoute } from '@angular/router';
-import { AlunosService } from './../../views/secretaria/alunos/alunos.service';
+import { AlunosService } from '../../services/alunos.service';
 import { Component, OnInit } from '@angular/core';
 
 @Component({
