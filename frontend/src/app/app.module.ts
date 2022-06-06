@@ -9,7 +9,6 @@ import { FooterComponent } from './components/templates/footer/footer.component'
 import { NavComponent } from './components/templates/nav/nav.component';
 import { AngularMaterialModule } from './shared/angular-material/angular-material.module';
 import { HomeComponent } from './views/home/home.component';
-import { ColaboradoresComponent } from './views/recursos-humanos/colaboradores/colaboradores.component';
 import { SecretariaModule } from './views/secretaria/secretaria.module';
 
 
@@ -21,7 +20,7 @@ import { SecretariaModule } from './views/secretaria/secretaria.module';
     HomeComponent,
     FooterComponent,
     
-    ColaboradoresComponent,
+    
     
     
     
