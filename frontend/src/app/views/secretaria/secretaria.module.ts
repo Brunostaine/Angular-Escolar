@@ -8,7 +8,6 @@ import { CardIconeComponent } from './../../components/cards/card-icone/card-ico
 import { CardMenuComponent } from './../../components/cards/card-menu/card-menu.component';
 import { DialogConfirmComponent } from './../../components/dialog-confirm/dialog-confirm.component';
 import { FuncionarioComponent } from './../../components/funcionario/funcionario.component';
-import { HeaderPagesComponent } from './../../components/header-pages/header-pages.component';
 import { IconeDeleteComponent } from './../../components/icones/icone-delete/icone-delete.component';
 import { IconeEditComponent } from './../../components/icones/icone-edit/icone-edit.component';
 import { IconeVisualizarComponent } from './../../components/icones/icone-visualizar/icone-visualizar.component';
@@ -33,7 +32,7 @@ import { TurmasComponent } from './turmas/turmas.component';
     SecretariaComponent,
     
     CardMenuComponent,
-    HeaderPagesComponent,
+    
     AlunosComponent,
     
     CardIconeComponent,
@@ -67,7 +66,7 @@ import { TurmasComponent } from './turmas/turmas.component';
   exports: [
     
     CardMenuComponent,
-    HeaderPagesComponent,
+    
     
     IconeEditComponent,
     IconeDeleteComponent,
