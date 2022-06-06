@@ -26,6 +26,9 @@ import { ReadFuncionariosComponent } from './funcionarios/read-funcionarios/read
 import { UpdateFuncionariosComponent } from './funcionarios/update-funcionarios/update-funcionarios.component';
 import { SecretariaRoutingModule } from './secretaria-routing.module';
 import { SecretariaComponent } from './secretaria.component';
+import { TurmasComponent } from './turmas/turmas.component';
+import { MatriculaComponent } from './matricula/matricula.component';
+import { PeriodoLetivoComponent } from './periodo-letivo/periodo-letivo.component';
 
 
 
@@ -54,6 +57,9 @@ import { SecretariaComponent } from './secretaria.component';
     UpdateFuncionariosComponent,
     ReadFuncionariosComponent,
     FuncionarioComponent,
+    TurmasComponent,
+    MatriculaComponent,
+    PeriodoLetivoComponent,
     
     
   ],

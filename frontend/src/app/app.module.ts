@@ -11,6 +11,7 @@ import { NavComponent } from './components/templates/nav/nav.component';
 import { AngularMaterialModule } from './shared/angular-material/angular-material.module';
 import { HomeComponent } from './views/home/home.component';
 import { SecretariaModule } from './views/secretaria/secretaria.module';
+import { ColaboradoresComponent } from './views/recursos-humanos/colaboradores/colaboradores.component';
 
 
 @NgModule({
@@ -20,6 +21,7 @@ import { SecretariaModule } from './views/secretaria/secretaria.module';
     NavComponent,
     HomeComponent,
     FooterComponent,
+    ColaboradoresComponent,
     
     
     
