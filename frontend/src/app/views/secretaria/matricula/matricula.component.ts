@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { FormBuilder, FormGroup } from '@angular/forms';
 
 @Component({
   selector: 'app-matricula',
@@ -7,9 +8,15 @@ import { Component, OnInit } from '@angular/core';
 })
 export class MatriculaComponent implements OnInit {
 
-  constructor() { }
+    formulario!: FormGroup;
 
-  ngOnInit(): void {
-  }
+constructor(private formBuilder: FormBuilder) { }
+
+ngOnInit(): void {
+    this.formulario = this.formBuilder.group({
+        nome: [null],
+        email: [null]
+    })
+}
 
 }
