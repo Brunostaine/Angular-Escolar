@@ -9,6 +9,12 @@ import { Router } from '@angular/router';
 })
 export class MatriculaComponent implements OnInit {
 
+    btn: string = 'Salvar'
+    background: string = 'salvar'
+
+    btnCancel: string = 'Cancelar'
+    backgroundCancel: string = 'cancelar'
+
     formulario!: FormGroup;
 
     constructor(private formBuilder: FormBuilder, private router: Router) { }
@@ -44,5 +50,7 @@ export class MatriculaComponent implements OnInit {
     cancel(): void {
         this.router.navigate(['/secretaria'])
     }
+    
+    
 
 }
