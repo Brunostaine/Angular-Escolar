@@ -17,6 +17,7 @@ import { PeriodoLetivoComponent } from './periodo-letivo/periodo-letivo.componen
 import { SecretariaRoutingModule } from './secretaria-routing.module';
 import { SecretariaComponent } from './secretaria.component';
 import { TurmasComponent } from './turmas/turmas.component';
+import { AlunosComponent } from './alunos/alunos.component';
 
 
 
@@ -36,6 +37,7 @@ import { TurmasComponent } from './turmas/turmas.component';
         ButtomComponent,
         AlunoComponent,
         DialogConfirmComponent,
+        AlunosComponent,
 
     ],
     imports: [

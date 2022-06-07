@@ -1,3 +1,4 @@
+import { AlunosComponent } from './alunos/alunos.component';
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 
@@ -6,7 +7,8 @@ import { SecretariaComponent } from './secretaria.component';
 
 const routes: Routes = [
   { path: 'secretaria', component: SecretariaComponent },
-  { path: 'matricula', component: MatriculaComponent }
+  { path: 'matricula/create', component: MatriculaComponent },
+  { path: 'alunos', component: AlunosComponent }
 ];
 
 @NgModule({

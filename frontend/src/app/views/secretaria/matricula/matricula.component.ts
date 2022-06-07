@@ -47,7 +47,6 @@ export class MatriculaComponent implements OnInit {
 
     enviar(): void {
         if(this.formulario.valid){
-            console.log()
             this.AlunosService.create(this.formulario.value).subscribe(
                 success => {
                     this.AlunosService.showMessage('Matricula efetuada com sucesso!')

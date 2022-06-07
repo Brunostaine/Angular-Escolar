@@ -1,4 +1,8 @@
 <div class="container">
+    <mat-card>
+        <mat-card-title class="card-title">Efetuar Nova Matrícula</mat-card-title>
+    
+
     <form class="form" [formGroup]="formulario">
         <mat-form-field class="full-width" appearance="fill">
             <mat-label>Nome Completo</mat-label>
@@ -104,4 +108,5 @@
         <app-buttom [nome]="btn" [background]="background" (click)="enviar()"></app-buttom>
         <app-buttom [nome]="btnCancel" [background]="backgroundCancel" (click)="cancel()"></app-buttom>
     </div>
+</mat-card>
 </div>
