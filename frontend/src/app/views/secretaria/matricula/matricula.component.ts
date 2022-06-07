@@ -1,3 +1,4 @@
+import { AlunosService } from './../../../services/alunos.service';
 import { Component, OnInit } from '@angular/core';
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 import { Router } from '@angular/router';
@@ -17,7 +18,11 @@ export class MatriculaComponent implements OnInit {
 
     formulario!: FormGroup;
 
-    constructor(private formBuilder: FormBuilder, private router: Router) { }
+    constructor(
+        private formBuilder: FormBuilder, 
+        private router: Router,
+        private AlunosService: AlunosService
+        ) { }
 
     ngOnInit(): void {
         this.formulario = this.formBuilder.group({
@@ -42,9 +47,20 @@ export class MatriculaComponent implements OnInit {
 
     enviar(): void {
         if(this.formulario.valid){
-            console.log('valid')
+            console.log()
+            this.AlunosService.create(this.formulario.value).subscribe(
+                success => {
+                    this.AlunosService.showMessage('Matricula efetuada com sucesso!')
+                },
+                error => {
+                    this.AlunosService.showMessage('Ocorreu um erro, tente novamente mais tarde!')
+                }
+            )
+            
+            
         } else 
-            console.log('Invalido')
+        this.AlunosService.showMessage('Preencha os campos obrigatórios para concluir a matricula.')
+            
     }
 
     cancel(): void {

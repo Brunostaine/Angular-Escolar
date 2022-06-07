@@ -7,9 +7,7 @@
       "nome": "Marli da silva",
       "serie": "5ª série",
       "nomeMae": "Marilene da silva",
-
       "nascionalidade": "brasileira",
-
       "dataNascimento": "02/08/1988",
       "nomePai": "João da silva",
       "cpf": "081.082.093-69",
@@ -31,7 +29,6 @@
       "dataExpedicao": "01/05/1991",
       "uf": "DF",
       "necessidadesEspeciais": "Não"
-
     },
     {
       "nome": "Joaquina guimares",
@@ -219,6 +216,40 @@
       "bairro": "Asa Norte",
       "estado": "DF",
       "id": 9
+    },
+    {
+      "nome": "asdadasd",
+      "email": "bruno@email.com",
+      "cpf": "asdasd",
+      "rg": "asdad",
+      "nomeMae": "asdasd",
+      "nomePai": "asdasd",
+      "sexo": "masculino",
+      "raca": "branco",
+      "telefone": "dddddddddddddd",
+      "telefone2": null,
+      "dataNascimento": "2022-06-05T03:00:00.000Z",
+      "idade": null,
+      "tipoSanguineo": "B+",
+      "necessidadesEspeciais": "nao",
+      "id": 10
+    },
+    {
+      "nome": "teste",
+      "email": "bruno@email.com",
+      "cpf": "03745773152",
+      "rg": "2763011",
+      "nomeMae": "marileide",
+      "nomePai": "marcos",
+      "sexo": "masculino",
+      "raca": "branco",
+      "telefone": "2222222222",
+      "telefone2": null,
+      "dataNascimento": "2022-06-13T03:00:00.000Z",
+      "idade": null,
+      "tipoSanguineo": "AB+",
+      "necessidadesEspeciais": "nao",
+      "id": 11
     }
   ],
   "funcionarios": [
