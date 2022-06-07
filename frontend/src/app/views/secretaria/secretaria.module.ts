@@ -1,6 +1,7 @@
 import { CommonModule } from '@angular/common';
 import { NgModule } from '@angular/core';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { MAT_DATE_LOCALE } from '@angular/material/core';
 
 import { AlunoComponent } from './../../components/aluno/aluno.component';
 import { ButtomComponent } from './../../components/botoes/buttom/buttom.component';
@@ -52,6 +53,9 @@ import { TurmasComponent } from './turmas/turmas.component';
         ButtomComponent,
         DialogConfirmComponent,
         AlunoComponent,
+    ],
+    providers: [
+        { provide: MAT_DATE_LOCALE, useValue: 'pt-BR' },
     ]
 })
 export class SecretariaModule { }

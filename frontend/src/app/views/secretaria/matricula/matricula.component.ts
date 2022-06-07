@@ -21,14 +21,14 @@ export class MatriculaComponent implements OnInit {
             rg: [null],
             nomeMae: [null, Validators.required],
             nomePai: [null],
-            sexo: [null],
-            raca: [null],
-            telefone: [null],
+            sexo: [null, Validators.required],
+            raca: [null, Validators.required],
+            telefone: [null, Validators.required],
             telefone2: [null],
-            dataNascimento: [null],
+            dataNascimento: [null, Validators.required],
             idade: [null],
-            tipoSanguineo: [null],
-            necessidadesEspeciais: [null],
+            tipoSanguineo: [null, Validators.required],
+            necessidadesEspeciais: [null, Validators.required],
         })
 
         
