@@ -7,14 +7,14 @@ import { Component, OnInit, Input } from '@angular/core';
 })
 export class ButtomComponent implements OnInit {
 
-  @Input('nome') buttom: string = ''
-  @Input('background') background: string =  ''
+    @Input('nome') buttom: string = ''
+    @Input('background') background: string =  ''
 
-  
 
-  constructor() { }
 
-  ngOnInit(): void {
-  }
+    constructor() { }
+
+    ngOnInit(): void {
+    }
 
 }

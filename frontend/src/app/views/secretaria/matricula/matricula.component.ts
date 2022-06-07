@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { FormBuilder, FormGroup } from '@angular/forms';
+import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 import { Router } from '@angular/router';
 
 @Component({
@@ -15,15 +15,30 @@ export class MatriculaComponent implements OnInit {
 
     ngOnInit(): void {
         this.formulario = this.formBuilder.group({
-            nome: [null],
-            email: [null]
+            nome: [null, Validators.required],
+            email: [null, [Validators.required, Validators.email]],
+            cpf: [null],
+            rg: [null],
+            nomeMae: [null, Validators.required],
+            nomePai: [null],
+            sexo: [null],
+            raca: [null],
+            telefone: [null],
+            telefone2: [null],
+            dataNascimento: [null],
+            idade: [null],
+            tipoSanguineo: [null],
+            necessidadesEspeciais: [null],
         })
 
-        console.log(this.formulario)
+        
     }
 
     enviar(): void {
-        console.log(this.formulario.value)
+        if(this.formulario.valid){
+            console.log('valid')
+        } else 
+            console.log('Invalido')
     }
 
     cancel(): void {

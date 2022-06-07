@@ -6,7 +6,7 @@
     "start": "json-server --watch db.json --port 3001"
   },
   "keywords": [],
-  "author": "",
+  "author": "bruno staine",
   "license": "ISC",
   "dependencies": {
     "json": "^11.0.0",
