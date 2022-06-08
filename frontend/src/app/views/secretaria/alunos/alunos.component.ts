@@ -1,3 +1,4 @@
+import { Router } from '@angular/router';
 import { Alunos } from './../../../models/alunos-model';
 import { AlunosService } from './../../../services/alunos.service';
 import { Component, OnInit } from '@angular/core';
@@ -15,12 +16,22 @@ export class AlunosComponent implements OnInit {
     displayedColumns: string[] = ['id', 'nome', 'acao'];
     
 
-    constructor(private alunosService: AlunosService) { }
+    constructor(private alunosService: AlunosService, private router: Router) { }
 
     ngOnInit(): void {
     this.alunosService.read().subscribe( result => {
         this.formulario = result;
     })
+    }
+
+    visualizar(id: any) {
+        this.alunosService.readById(id).subscribe(result => {
+            
+        })
+    }
+
+    editar(id: any) {
+        
     }
 
     deletar(id: any) {
@@ -32,5 +43,5 @@ export class AlunosComponent implements OnInit {
             })
     }
 
-    
+
 }

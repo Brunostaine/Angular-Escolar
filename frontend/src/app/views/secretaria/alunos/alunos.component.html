@@ -2,6 +2,7 @@
     <mat-card class="mat-elevation-z8">
         <h1>Lista de Alunos Matriculados</h1>
     </mat-card>
+    
 
     <table mat-table [dataSource]="formulario" class="mat-elevation-z8">
 
@@ -18,8 +19,8 @@
         <ng-container matColumnDef="acao">
           <th mat-header-cell *matHeaderCellDef> Ação </th>
           <td mat-cell *matCellDef="let element">
-              <app-icone-visualizar></app-icone-visualizar>
-              <app-icone-edit></app-icone-edit>
+              <app-icone-visualizar (click)="visualizar(element.id)"></app-icone-visualizar>
+              <app-icone-edit (click)="editar(element.id)"></app-icone-edit>
               <app-icone-delete (click)="deletar(element.id)"></app-icone-delete>
           </td>
         </ng-container>
