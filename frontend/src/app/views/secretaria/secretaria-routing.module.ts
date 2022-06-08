@@ -11,6 +11,7 @@ const routes: Routes = [
   { path: 'secretaria', component: SecretariaComponent },
   { path: 'secretaria/alunos', component: AlunosComponent },
   { path: 'secretaria/alunos/matricula', component: MatriculaComponent },
+  { path: 'secretaria/alunos/:id', component: AlunoComponent },
   { path: 'secretaria/alunos/update/:id', component: AlunoUpdateComponent },
 ];
 
