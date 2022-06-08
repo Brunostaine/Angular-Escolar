@@ -1,6 +1,7 @@
 import { Alunos } from './../../../models/alunos-model';
 import { AlunosService } from './../../../services/alunos.service';
 import { Component, OnInit } from '@angular/core';
+import { delay } from 'rxjs';
 
 @Component({
   selector: 'app-alunos',
@@ -14,12 +15,22 @@ export class AlunosComponent implements OnInit {
     displayedColumns: string[] = ['id', 'nome', 'acao'];
     
 
-  constructor(private alunosService: AlunosService) { }
+    constructor(private alunosService: AlunosService) { }
 
-  ngOnInit(): void {
+    ngOnInit(): void {
     this.alunosService.read().subscribe( result => {
         this.formulario = result;
     })
-  }
+    }
 
+    deletar(id: any) {
+        this.alunosService.delete(id).subscribe(
+            success => {
+                this.alunosService.showMessage('Aluno excluído com sucesso')
+                delay(4000)
+                location.reload()
+            })
+    }
+
+    
 }

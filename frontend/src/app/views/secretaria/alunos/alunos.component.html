@@ -20,7 +20,7 @@
           <td mat-cell *matCellDef="let element">
               <app-icone-visualizar></app-icone-visualizar>
               <app-icone-edit></app-icone-edit>
-              <app-icone-delete></app-icone-delete>
+              <app-icone-delete (click)="deletar(element.id)"></app-icone-delete>
           </td>
         </ng-container>
 
