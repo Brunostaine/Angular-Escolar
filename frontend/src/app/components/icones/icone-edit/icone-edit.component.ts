@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'icone-edit',
+  selector: 'app-icone-edit',
   templateUrl: './icone-edit.component.html',
   styleUrls: ['./icone-edit.component.css']
 })

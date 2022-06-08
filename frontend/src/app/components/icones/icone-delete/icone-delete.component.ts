@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'icone-delete',
+  selector: 'app-icone-delete',
   templateUrl: './icone-delete.component.html',
   styleUrls: ['./icone-delete.component.css']
 })
