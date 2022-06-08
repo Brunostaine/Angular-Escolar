@@ -1,3 +1,4 @@
+import { TurmasComponent } from './turmas/turmas.component';
 import { AlunoUpdateComponent } from './alunos/aluno-update/aluno-update.component';
 import { AlunoComponent } from './../../components/aluno/aluno.component';
 import { AlunosComponent } from './alunos/alunos.component';
@@ -13,6 +14,8 @@ const routes: Routes = [
   { path: 'secretaria/alunos/matricula', component: MatriculaComponent },
   { path: 'secretaria/alunos/:id', component: AlunoComponent },
   { path: 'secretaria/alunos/update/:id', component: AlunoUpdateComponent },
+
+  { path: 'secretaria/turmas', component: TurmasComponent },
 ];
 
 @NgModule({
