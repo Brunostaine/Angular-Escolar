@@ -8,17 +8,19 @@ import { ButtomComponent } from './../../components/botoes/buttom/buttom.compone
 import { CardIconeComponent } from './../../components/cards/card-icone/card-icone.component';
 import { CardMenuComponent } from './../../components/cards/card-menu/card-menu.component';
 import { DialogConfirmComponent } from './../../components/dialog-confirm/dialog-confirm.component';
+import { IconeAddCircleComponent } from './../../components/icones/icone-add-circle/icone-add-circle.component';
 import { IconeDeleteComponent } from './../../components/icones/icone-delete/icone-delete.component';
 import { IconeEditComponent } from './../../components/icones/icone-edit/icone-edit.component';
 import { IconeVisualizarComponent } from './../../components/icones/icone-visualizar/icone-visualizar.component';
 import { AngularMaterialModule } from './../../shared/angular-material/angular-material.module';
+import { AlunoUpdateComponent } from './alunos/aluno-update/aluno-update.component';
+import { AlunosComponent } from './alunos/alunos.component';
 import { MatriculaComponent } from './matricula/matricula.component';
 import { PeriodoLetivoComponent } from './periodo-letivo/periodo-letivo.component';
 import { SecretariaRoutingModule } from './secretaria-routing.module';
 import { SecretariaComponent } from './secretaria.component';
+import { CreateTurmaComponent } from './turmas/create-turma/create-turma.component';
 import { TurmasComponent } from './turmas/turmas.component';
-import { AlunosComponent } from './alunos/alunos.component';
-import { AlunoUpdateComponent } from './alunos/aluno-update/aluno-update.component';
 
 
 
@@ -35,11 +37,13 @@ import { AlunoUpdateComponent } from './alunos/aluno-update/aluno-update.compone
         IconeEditComponent,
         IconeDeleteComponent,
         IconeVisualizarComponent,
+        IconeAddCircleComponent,
         ButtomComponent,
         AlunoComponent,
         DialogConfirmComponent,
         AlunosComponent,
         AlunoUpdateComponent,
+        CreateTurmaComponent,
 
     ],
     imports: [
@@ -54,6 +58,7 @@ import { AlunoUpdateComponent } from './alunos/aluno-update/aluno-update.compone
         IconeEditComponent,
         IconeDeleteComponent,
         IconeVisualizarComponent,
+        IconeAddCircleComponent,
         ButtomComponent,
         DialogConfirmComponent,
         AlunoComponent,

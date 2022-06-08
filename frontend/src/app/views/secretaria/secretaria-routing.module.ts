@@ -1,12 +1,13 @@
-import { TurmasComponent } from './turmas/turmas.component';
-import { AlunoUpdateComponent } from './alunos/aluno-update/aluno-update.component';
-import { AlunoComponent } from './../../components/aluno/aluno.component';
-import { AlunosComponent } from './alunos/alunos.component';
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 
+import { AlunoComponent } from './../../components/aluno/aluno.component';
+import { AlunoUpdateComponent } from './alunos/aluno-update/aluno-update.component';
+import { AlunosComponent } from './alunos/alunos.component';
 import { MatriculaComponent } from './matricula/matricula.component';
 import { SecretariaComponent } from './secretaria.component';
+import { CreateTurmaComponent } from './turmas/create-turma/create-turma.component';
+import { TurmasComponent } from './turmas/turmas.component';
 
 const routes: Routes = [
   { path: 'secretaria', component: SecretariaComponent },
@@ -16,6 +17,7 @@ const routes: Routes = [
   { path: 'secretaria/alunos/update/:id', component: AlunoUpdateComponent },
 
   { path: 'secretaria/turmas', component: TurmasComponent },
+  { path: 'secretaria/turmas/create', component: CreateTurmaComponent },
 ];
 
 @NgModule({
