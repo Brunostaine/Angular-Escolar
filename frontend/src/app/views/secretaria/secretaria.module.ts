@@ -18,6 +18,7 @@ import { SecretariaRoutingModule } from './secretaria-routing.module';
 import { SecretariaComponent } from './secretaria.component';
 import { TurmasComponent } from './turmas/turmas.component';
 import { AlunosComponent } from './alunos/alunos.component';
+import { AlunoUpdateComponent } from './alunos/aluno-update/aluno-update.component';
 
 
 
@@ -38,6 +39,7 @@ import { AlunosComponent } from './alunos/alunos.component';
         AlunoComponent,
         DialogConfirmComponent,
         AlunosComponent,
+        AlunoUpdateComponent,
 
     ],
     imports: [

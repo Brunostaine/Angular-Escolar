@@ -24,15 +24,6 @@ export class AlunosComponent implements OnInit {
     })
     }
 
-    visualizar(id: any) {
-        this.alunosService.readById(id).subscribe(result => {
-            
-        })
-    }
-
-    editar(id: any) {
-        
-    }
 
     deletar(id: any) {
         this.alunosService.delete(id).subscribe(

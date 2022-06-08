@@ -1,42 +1,45 @@
 <div class="container">
     <mat-card>
-        <mat-card-title class="card-title">Efetuar Nova Matrícula</mat-card-title>
-    
+        <mat-card-title class="card-title">
+            Atualizar Matrícula - {{formulario.nome}}
+        </mat-card-title>   
 
-    <form class="form" [formGroup]="formulario">
+    <form class="form">
+
         <mat-form-field class="full-width" appearance="fill">
             <mat-label>Nome Completo</mat-label>
-            <input matInput formControlName="nome">
+            <input matInput required [(ngModel)]="formulario.nome" name="nome">
         </mat-form-field>
+        
 
         <mat-form-field class="full-width" appearance="fill">
             <mat-label>Email</mat-label>
-            <input matInput formControlName="email">
+            <input matInput required [(ngModel)]="formulario.email" name="email">
         </mat-form-field> 
 
         <mat-form-field class="full-width" appearance="fill">
             <mat-label>CPF</mat-label>
-            <input matInput formControlName="cpf">
+            <input matInput [(ngModel)]="formulario.cpf" name="cpf">
         </mat-form-field> 
 
         <mat-form-field class="full-width" appearance="fill">
             <mat-label>RG</mat-label>
-            <input matInput formControlName="rg">
+            <input matInput [(ngModel)]="formulario.rg" name="rg">
         </mat-form-field>
         
         <mat-form-field class="full-width" appearance="fill">
             <mat-label>Nome da Mãe</mat-label>
-            <input matInput formControlName="nomeMae">
+            <input matInput [(ngModel)]="formulario.nomeMae" name="nomeMae">
         </mat-form-field> 
 
         <mat-form-field class="full-width" appearance="fill">
             <mat-label>Nome do Pai</mat-label>
-            <input matInput formControlName="nomePai">
+            <input matInput [(ngModel)]="formulario.nomePai" name="nomePai">
         </mat-form-field> 
 
         <mat-form-field  class="full-width" appearance="fill">
             <mat-label>Sexo</mat-label>
-            <mat-select formControlName="sexo">
+            <mat-select [(ngModel)]="formulario.sexo" name="sexo">
                 <mat-option disabled>Escolha uma opção</mat-option>
                 <mat-option value="masculino">Masculino</mat-option>
                 <mat-option value="feminino">Feminino</mat-option>
@@ -45,7 +48,7 @@
 
         <mat-form-field class="full-width" appearance="fill">
             <mat-label>Raça / Cor</mat-label>
-            <mat-select formControlName="raca">
+            <mat-select [(ngModel)]="formulario.cor" name="cor">
                 <mat-option disabled>Escolha uma opção</mat-option>
                 <mat-option value="branco">Branca</mat-option>
                 <mat-option value="preta">Preta</mat-option>
@@ -57,16 +60,16 @@
 
         <mat-form-field class="full-width" appearance="fill">
             <mat-label>Telefone do Responsável</mat-label>
-            <input matInput formControlName="telefoneResponsavel">
+            <input matInput [(ngModel)]="formulario.telefoneResponsavel" name="telefoneResponsavel">
         </mat-form-field>
         <mat-form-field class="full-width" appearance="fill">
             <mat-label>Telefone do Responsável 2</mat-label>
-            <input matInput formControlName="telefoneResponsavel2">
+            <input matInput [(ngModel)]="formulario.telefoneResponsavel2" name="telefoneResponsavel2">
         </mat-form-field>
 
         <mat-form-field class="full-width" appearance="fill">
             <mat-label>Data de Nascimento</mat-label>
-            <input matInput [matDatepicker]="picker" formControlName="dataNascimento">
+            <input matInput [matDatepicker]="picker" [(ngModel)]="formulario.dataNascimento" name="dataNascimento">
             <mat-hint>MM/DD/YYYY</mat-hint>
             <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
             <mat-datepicker #picker></mat-datepicker>
@@ -75,12 +78,12 @@
         
 
         <mat-form-field class="full-width" appearance="fill"> 
-            <input readonly matInput formControlName="idade" placeholder="Idade">
+            <input readonly matInput [(ngModel)]="formulario.idade" name="idade" placeholder="Idade">
         </mat-form-field>
 
         <mat-form-field  class="full-width" appearance="fill">
             <mat-label>Tipo Sanguineo</mat-label>
-            <mat-select formControlName="tipoSanguineo">
+            <mat-select [(ngModel)]="formulario.tipoSanguineo" name="tipoSanguineo">
                 <mat-option disabled>Escolha uma opção</mat-option>
                 <mat-option value="A+">A+</mat-option>
                 <mat-option value="B+">B+</mat-option>
@@ -95,17 +98,17 @@
 
         <mat-form-field  class="full-width" appearance="fill">
             <mat-label >Tem Necessidades Especiais</mat-label>
-            <mat-select formControlName="necessidadesEspeciais">
+            <mat-select [(ngModel)]="formulario.necessidadesEspeciais" name="necessidadesEspeciais">
                 <mat-option disabled>Escolha uma opção</mat-option>
                 <mat-option value="sim">Sim</mat-option>
                 <mat-option value="nao">Não</mat-option>
             </mat-select>
-        </mat-form-field>
+        </mat-form-field> 
 
     </form>
 
     <div class="buttom">
-        <app-buttom [nome]="btn" [background]="background" (click)="enviar()"></app-buttom>
+        <app-buttom [nome]="btn" [background]="background" (click)="update()"></app-buttom>
         <app-buttom [nome]="btnCancel" [background]="backgroundCancel" (click)="cancel()"></app-buttom>
     </div>
 </mat-card>

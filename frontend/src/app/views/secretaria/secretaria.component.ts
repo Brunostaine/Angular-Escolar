@@ -9,19 +9,19 @@ export class SecretariaComponent implements OnInit {
   // INPUTS
 
     alunos: string = 'Alunos'
-    linkAlunos: string = '/alunos'
+    linkAlunos: string = '/secretaria/alunos'
     imgAlunos: string = '/assets/img/alunos.jpg'
 
     turmas: string = 'Turmas'
-    linkTurmas: string = '/turmas'
+    linkTurmas: string = '/secretaria/turmas'
     imgTurmas: string = '/assets/img/alunos.jpg'
 
     matricula: string = 'Matricula'
-    linkMatricula: string = '/matricula'
+    linkMatricula: string = '/secretaria/alunos/matricula'
     imgMatricula: string = '/assets/img/alunos.jpg'
 
     periodo: string = 'Período Letivo'
-    linkPeriodo: string = '/periodo'
+    linkPeriodo: string = '/secretaria/periodo'
     imgPeriodo: string = '/assets/img/alunos.jpg'
 
 

@@ -1,3 +1,4 @@
+import { AlunoUpdateComponent } from './alunos/aluno-update/aluno-update.component';
 import { AlunoComponent } from './../../components/aluno/aluno.component';
 import { AlunosComponent } from './alunos/alunos.component';
 import { NgModule } from '@angular/core';
@@ -8,9 +9,9 @@ import { SecretariaComponent } from './secretaria.component';
 
 const routes: Routes = [
   { path: 'secretaria', component: SecretariaComponent },
-  { path: 'matricula/create', component: MatriculaComponent },
-  { path: 'alunos', component: AlunosComponent },
-  { path: 'aluno', component: AlunoComponent },
+  { path: 'secretaria/alunos', component: AlunosComponent },
+  { path: 'secretaria/alunos/matricula', component: MatriculaComponent },
+  { path: 'secretaria/alunos/update/:id', component: AlunoUpdateComponent },
 ];
 
 @NgModule({
