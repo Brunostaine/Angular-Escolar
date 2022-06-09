@@ -33,6 +33,7 @@ export class CreateTurmaComponent implements OnInit {
             (result) => {
                 this.turma = result;
                 this.turmasService.showMessage('Nova turma inserida com sucesso')
+                this.router.navigate(['/secretaria/turmas'])
             })
       } else {
         this.turmasService.showMessage('Preencha os campos')
@@ -40,7 +41,7 @@ export class CreateTurmaComponent implements OnInit {
   }
 
   cancel(): void {
-    this.router.navigate(['/secretaria'])
+    this.router.navigate(['/secretaria/turmas'])
   }
 
 }

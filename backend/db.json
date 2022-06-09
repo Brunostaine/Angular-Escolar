@@ -150,6 +150,10 @@
     {
       "name": "3º ANO",
       "id": 4
+    },
+    {
+      "name": "Inglês Básico",
+      "id": 5
     }
   ],
   "funcionarios": [

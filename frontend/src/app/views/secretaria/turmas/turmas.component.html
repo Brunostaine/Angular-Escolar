@@ -3,10 +3,11 @@
         <mat-card-title>Turmas</mat-card-title>
     </mat-card>
 
-    <app-icone-add-circle routerLink="/secretaria/turmas/create"></app-icone-add-circle>
-
-    
-    
+    <mat-toolbar>
+        <!-- Icone voltar -->
+        <h2>Turmas Cadastradas</h2>
+        <app-icone-add-circle routerLink="/secretaria/turmas/create"></app-icone-add-circle>
+      </mat-toolbar>
 
     <mat-card>
         <table mat-table [dataSource]="turmas" class="mat-elevation-z8">
