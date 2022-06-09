@@ -12,6 +12,7 @@ import { AngularMaterialModule } from './shared/angular-material/angular-materia
 import { HomeComponent } from './views/home/home.component';
 import { RecursosHumanosModule } from './views/recursos-humanos/recursos-humanos.module';
 import { SecretariaModule } from './views/secretaria/secretaria.module';
+import { IconeVoltarComponent } from './components/icones/icone-voltar/icone-voltar.component';
 
 
 @NgModule({
@@ -21,6 +22,7 @@ import { SecretariaModule } from './views/secretaria/secretaria.module';
     NavComponent,
     HomeComponent,
     FooterComponent,
+    IconeVoltarComponent,
     
 
   ],
