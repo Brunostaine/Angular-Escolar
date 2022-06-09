@@ -20,6 +20,10 @@ export class TurmasService {
         return this.http.post<Turma>(this.baseURL, turma)
     }
 
+    read(): Observable<Turma[]> {
+        return this.http.get<Turma[]>(this.baseURL)
+    }
+
     showMessage(msg: string) {
         this.snackBar.open(msg, '', {
             duration: 3000,

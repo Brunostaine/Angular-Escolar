@@ -138,6 +138,20 @@
       "id": 8
     }
   ],
+  "turmas": [
+    {
+      "name": "1º ANO",
+      "id": 2
+    },
+    {
+      "name": "2º ANO",
+      "id": 3
+    },
+    {
+      "name": "3º ANO",
+      "id": 4
+    }
+  ],
   "funcionarios": [
     {
       "name": "Primeiro professor",
