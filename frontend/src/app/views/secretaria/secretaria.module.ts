@@ -1,3 +1,4 @@
+import { IconeVoltarComponent } from './../../components/icones/icone-voltar/icone-voltar.component';
 import { CommonModule } from '@angular/common';
 import { NgModule } from '@angular/core';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
@@ -38,6 +39,7 @@ import { TurmasComponent } from './turmas/turmas.component';
         IconeDeleteComponent,
         IconeVisualizarComponent,
         IconeAddCircleComponent,
+        IconeVoltarComponent,
         ButtomComponent,
         AlunoComponent,
         DialogConfirmComponent,
@@ -59,6 +61,7 @@ import { TurmasComponent } from './turmas/turmas.component';
         IconeDeleteComponent,
         IconeVisualizarComponent,
         IconeAddCircleComponent,
+        IconeVoltarComponent,
         ButtomComponent,
         DialogConfirmComponent,
         AlunoComponent,
