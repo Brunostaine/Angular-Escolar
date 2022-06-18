@@ -12,6 +12,7 @@ import { AngularMaterialModule } from './shared/angular-material/angular-materia
 import { HomeComponent } from './views/home/home.component';
 import { RecursosHumanosModule } from './views/recursos-humanos/recursos-humanos.module';
 import { SecretariaModule } from './views/secretaria/secretaria.module';
+import { LoginComponent } from './components/templates/login/login.component';
 
 
 
@@ -22,6 +23,7 @@ import { SecretariaModule } from './views/secretaria/secretaria.module';
     NavComponent,
     HomeComponent,
     FooterComponent,
+    LoginComponent,
     
     
 
